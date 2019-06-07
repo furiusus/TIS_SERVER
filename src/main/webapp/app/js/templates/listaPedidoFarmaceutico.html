@@ -1,0 +1,129 @@
+<barra-farmaceutico></barra-farmaceutico>
+<div class=" letra">
+    <div class="container accordion" style="opacity:.9;" id="listaPedidos">
+        <div class="card">
+            <div class="card-header text-center disabled" id="" >
+                <div class="row" style="font-weight: bold;font-size :24px;">
+                    <div class="col-lg-4  col-md-4 col-sm-6 col-6 ">Numero Pedido</div>
+                    <div class="col-lg-4  col-md-4 col-sm-6 col-6 ">Tiempo limite</div>
+                    <div class="col-lg-4  col-md-4 col-sm-12 col-12 ">Detalles</div>
+                </div>
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="pedido1">
+                <h5 class="mb-0">
+                    <div class="row text-center ">
+                        <div class="col-lg-4  col-md-4 col-sm-6 col-6 align-self-center">Pedido 1</div>
+                        <div class="col-lg-4  col-md-4 col-sm-6 col-6  align-self-center">15/05/19 17:35 Horas</div>
+                        <div class="col-lg-4  col-md-4 col-sm-12 col-12 ">
+                            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#tablaContenido" aria-expanded="true" aria-controls="tablaContenido">
+                                <ion-icon name="eye" style="font-size:32px;"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+                </h5>
+            </div>
+            <div id="tablaContenido" class="collapse" aria-labelledby="pedido1" data-parent="#listaPedidos">
+                <div class="card-body">
+                    <table class="col-md-8 offset-md-2 table table-hover">
+                        <thead>
+                        <tr>
+                            <th scope="col-lg-4  col-md-4 col-sm-6 col-6">#</th>
+                            <th scope="col-lg-4  col-md-4 col-sm-6 col-6">Producto</th>
+                            <th scope="col-lg-4  col-md-4 col-sm-6 col-6">Descripcion</th>
+                            <th scope="col-lg-4  col-md-4 col-sm-6 col-6">Precio</th>
+                            <th scope="col-lg-4  col-md-4 col-sm-6 col-6">Cantidad</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Amoxicilina</td>
+                            <td>300 gm.</td>
+                            <td>S/. 1.00</td>
+                            <td>4 unidades</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Ibuprofeno</td>
+                            <td>20 ml</td>
+                            <td>S/. 0.80</td>
+                            <td>2 unidades</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <div class="col-md-8 offset-md-2 row">
+                        <div class="col-md-8">
+                            Total: S/. 5.60
+                        </div>
+                        <div class="col-md-4">
+                            Estado
+                            <button class="btn"><ion-icon name="checkbox-outline" style="font-size:32px;"></ion-icon></button>
+                            <button class="btn"><ion-icon name="close" style="font-size:32px;"></ion-icon></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="pedido2">
+                    <h5 class="mb-0">
+                        <div class="row text-center ">
+                            <div class="col-lg-4  col-md-4 col-sm-6 col-6 align-self-center">Pedido 2</div>
+                            <div class="col-lg-4  col-md-4 col-sm-6 col-6 align-self-center">15/05/19 18:35 Horas</div>
+                            <div class="col-lg-4  col-md-4 col-sm-12 col-12">
+                                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#tablaContenido2" aria-expanded="false" aria-controls="tablaContenido2">
+                                    <ion-icon name="eye" style="font-size:32px;"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </h5>
+                </div>
+                <div id="tablaContenido2" class="collapse" aria-labelledby="pedido2" data-parent="#listaPedidos">
+                    <div class="card-body">
+                        <table class="col-md-10 offset-md-1 table table-hover">
+                            <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Descripcion</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Cantidad</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Amoxicilina</td>
+                                <td>300 gm.</td>
+                                <td>S/. 1.00</td>
+                                <td>4 unidades</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Ibuprofeno</td>
+                                <td>20 ml</td>
+                                <td>S/. 0.80</td>
+                                <td>2 unidades</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <div class="col-md-8 offset-md-2 row">
+                            <div class="col-md-8">
+                                Total: S/. 5.60
+                            </div>
+                            <div class="col-md-4">
+                                Estado
+                                <button class="btn"><ion-icon name="checkbox-outline" style="font-size:32px;"></ion-icon></button>
+                                <button class="btn"><ion-icon name="close" style="font-size:32px;"></ion-icon></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

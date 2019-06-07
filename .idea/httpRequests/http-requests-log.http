@@ -1,0 +1,524 @@
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T124939.200.json
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T124853.200.json
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T124712.200.json
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T124630.200.json
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T124102.500.html
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T124005.500.html
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T123607.500.html
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T123441.500.html
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T123236.500.html
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T123143.500.html
+
+###
+
+POST http://localhost:8085/productoPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T123136.404.html
+
+###
+
+POST http://localhost:8085/agregarCliente?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-07T123118.400.html
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwwerty" ,"telefono":"987456876"}
+
+<> 2019-06-07T122915.200.json
+
+###
+
+POST http://localhost:8085/productosPag
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"pagina":1}
+
+<> 2019-06-07T122807.400.html
+
+###
+
+POST http://localhost:8085/productosPag
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"pagina":1}
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwwerty" ,"telefono":"987456876"}
+
+<> 2019-06-07T121728.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwwerty" ,"telefono":"987456876"}
+
+<> 2019-06-07T121727.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwwerty" }
+
+<> 2019-06-06T115433.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T115421-2.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T115421-1.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T115421.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T115419.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T115143.500.html
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T115126.500.html
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwearty" }
+
+<> 2019-06-06T114537.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T114530.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T104021.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T104017.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T103949.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T103902.500.html
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T103401.500.html
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T103311.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T103218.200.json
+
+###
+
+POST http://localhost:8085/agregarCliente
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
+
+<> 2019-06-06T101823.200.json
+
+###
+
+POST http://localhost:8085/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"jpereirau@uni.pe","clave":"321"}
+
+<> 2019-06-06T115835.200.json
+
+###
+
+POST http://localhost:8085/SERVER_FARMACIA_war/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"jpereyrau@uni.pe","clave":"321"}
+
+<> 2019-06-06T115613.404.html
+
+###
+
+POST http://localhost:8085/SERVER_FARMACIA_war/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"jpereirau@uni.pe","clave":"321"}
+
+<> 2019-06-06T115548.404.html
+
+###
+
+POST http://localhost:8085/SERVER_FARMACIA_war/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-05T072854.200.json
+
+###
+
+POST http://localhost:8085/SERVER_FARMACIA_war/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-04T115559.200.json
+
+###
+
+POST http://localhost:8085/SERVER_FARMACIA_war/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-04T115541.200.html
+
+###
+
+POST http://localhost:8086/server/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-04T053329.200.json
+
+###
+
+POST http://localhost:8086/server/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-04T051540.200.json
+
+###
+
+POST http://localhost:8086/server/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-04T051044.200.json
+
+###
+
+POST http://localhost:8086/server/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-04T045212.200.json
+
+###
+
+POST http://localhost:8086/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-04T045158.404.html
+
+###
+
+POST http://localhost:8086/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-04T040342.200.json
+
+###
+
+POST http://localhost:8086/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-03T080003.200.json
+
+###
+
+POST http://localhost:8086/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-03T075952.404.html
+
+###
+
+POST http://localhost:8086/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123"}
+
+<> 2019-06-03T074656.200.json
+
+###
+
+POST http://localhost:8086/verificarUsuario
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"correo":"rherrerah@uni.pe","clave":"123","llave":"123"}
+
+<> 2019-06-03T054132.200.json
+
+###
+

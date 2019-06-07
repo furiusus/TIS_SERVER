@@ -1,0 +1,65 @@
+<div class="container letra">
+    <br>
+        <button class="btn btn-danger" type="submit" style="border:8px" ng-click="irInicioV()">REGRESAR</button>
+
+
+    <div class="row text-center">
+        <h1 class="col-12">REGISTRO DE DATOS</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-8 fondo-iniciar-sesion offset-2">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-10  offset-lg-1">
+                    <form class="letra-registro">
+                        <br>
+                        <div class="form-row">
+                            <div class=" col-md-6 mb-3">
+                                <label for="nombres">Nombres:</label>
+                                <input type="text" ng-model="usuario.nombres" class="form-control" id="nombres" placeholder="Ingrese nombres"  required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="apellidos">Apellidos:</label>
+                                <input type="text" ng-model="usuario.apellidos" class="form-control" id="apellidos" placeholder="Ingrese apellidos" value="" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="correo">Correo:</label>
+                                <input type="email" ng-model="usuario.correo" class="form-control " id="correo" placeholder="Ingrese correo" required>
+                                <small class="form-text text-muted">Tenga en cuenta que el usuario para el logeo sera el mismo que su correo</small >
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="telefono">Teléfono:</label>
+                                <input type="text" ng-model="usuario.telefono" class="form-control" id="telefono" placeholder="Telefono" required maxlength="9">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="dni">DNI:</label>
+                                <input type="text" ng-model="usuario.dni" class="form-control " id="dni" placeholder="DNI" required maxlength="8">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="clave">Contraseña:</label>
+                                <input type="password" ng-model="usuario.clave" class="form-control " id="clave" placeholder="Ingrese contraseña" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="clave2">Repetir contraseña:</label>
+                                <input type="password" ng-model="usuario.clave2" class="form-control " id="clave2" placeholder="Ingrese la misma contraseña" required>
+                            </div>
+
+                        </div>
+                        <div class="form-row justify-content-center">
+                            <button class="btn btn-primary col-lg-6  col-md-6 col-sm-6 col-6 " ng-click="registrarCliente()">Registrarse</button>
+                            {{mensajeRegistro}}
+                        </div>
+                    </form>
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
