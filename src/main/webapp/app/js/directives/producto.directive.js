@@ -1,6 +1,6 @@
-app.directive('productoPanel',function () {
-    return{
-        restrict:'E',
-        templateUrl:'productoPanel'
-    }
-});
+// app.directive('productoPanel',function () {
+//     return{
+//         restrict:'E',
+//         templateUrl:'productoPanel'
+//     }
+// });

@@ -20,10 +20,11 @@
             <br>
             <div ng-repeat="producto in listaProducto" class="col-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="card tam centrar">
-                    <img src="producto." class="card-img-top altoImagen" alt="Paracetamol">
+                    <img ng-src="{{producto.url}}" class="card-img-top altoImagen" alt="pingaPaTi">
                     <div class="card-body">
-                        <h5 class="card-title">Paracetamol</h5>
-                        <p class="card-text">S/. 1.00</p>
+                        <h5 class="card-title">{{producto.nombre}}</h5>
+                        <p style="font-size: 10px;" class="card-title">{{producto.descripcion}}</p>
+                        <p class="card-text">S/. {{producto.precio}}</p>
                         <div class="row justify-content-center">
                             <div class="row col-12 justify-content-center">
                                 <button type="button" class="btn btn-secondary col-2">-</button>
@@ -53,15 +54,7 @@
             <li class="page-item disabled">
                 <span class="page-link">Anterior</span>
             </li>
-            <li class="page-item active" aria-current="page">
-                                <span class="page-link">
-                                  1
-                                  <span class="sr-only">(current)</span>
-                                </span>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li id="lk-{{i}}" ng-repeat="i in is " class="page-item " ng-class="{{class}}"><a class="page-link" ng-click="irPag({{i}})" href="#">{{i}}</a></li>
             <li class="page-item">
                 <a class="page-link" href="#">Siguiente</a>
             </li>

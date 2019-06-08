@@ -7,240 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85cccdb6-341c-43d1-a342-c125358e1af5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/48f67c09-3d54-41f4-b135-978e63b42b4a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/48f67c09-3d54-41f4-b135-978e63b42b4a/storage_v2/_src_/schema/FARMACIA.8FVQZg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/48f67c09-3d54-41f4-b135-978e63b42b4a/storage_v2/_src_/schema/PUBLIC.aaZQjQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-03T054132.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-03T074656.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-03T075952.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-03T080003.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-04T040342.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-04T045158.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-04T045212.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-04T051044.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-04T051540.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-04T053329.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-04T115541.200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-04T115559.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-05T072854.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T101823.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T103218.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T103311.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T103401.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T103902.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T103949.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T104017.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T104021.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T114530.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T114537.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115126.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115143.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115419.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115421-1.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115421-2.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115421.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115433.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115548.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115613.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-06T115835.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T121727.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T121728.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T122807.400.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T122915.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T123118.400.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T123136.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T123143.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T123236.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T123441.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T123607.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124005.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124102.500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124630.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124712.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124853.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124939.200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SERVER_FARMACIA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/ProductoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/SimpleJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/UsuarioDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/ProductoDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/UsuarioiDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/ProductoPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/response/ResponseVerificarUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/ProductoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/UsuarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/impl/ProductoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/impl/UsuarioServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/aplication-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/directives/app.directive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/directives/producto.directive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/barraCliente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/barraFarmaceutico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/editarProducto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/inicio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoCliente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoFarmaceutico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/productoPanel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/registro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/public/img/amoxicilina.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/public/img/botica.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/public/img/fondo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/public/img/fondos/fondo1200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/public/img/fondos/fondo480.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/public/img/fondos/fondo768.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/public/img/ibuprofeno.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/public/img/paracetamol.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/angular/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-4.3.1-dist/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery-3.3.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/aplication-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/META-INF/SERVER_FARMACIA.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/controller/PedidoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/dao/ProductoDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/dao/SimpleJdbc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/dao/UsuarioDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/dao/impl/ProductoDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/dao/impl/UsuarioiDaoImpl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/dao/impl/UsuarioiDaoImpl$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/dao/impl/UsuarioiDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/daomain/Pedido.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/daomain/Producto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/daomain/ProductoPedido.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/daomain/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/response/ResponseVerificarUsuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/servicios/ProductoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/servicios/UsuarioService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/servicios/impl/ProductoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/classes/farmacia/servicios/servicios/impl/UsuarioServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/jackson-annotations-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/jackson-core-2.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/jackson-databind-2.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/jdbc-driver-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/spring-jdbc-4.3.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/controlador/controlador.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/directives/app.directive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/directives/producto.directive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/barraCliente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/barraFarmaceutico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/catalogoProductoCliente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/editarProducto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/inicio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/listaPedidoCliente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/listaPedidoFarmaceutico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/productoPanel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/js/templates/registro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/public/img/amoxicilina.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/public/img/botica.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/public/img/fondo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/public/img/fondos/fondo1200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/public/img/fondos/fondo480.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/public/img/fondos/fondo768.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/public/img/ibuprofeno.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/app/public/img/paracetamol.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/angular/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/bootstrap-4.3.1-dist/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SERVER_FARMACIA/vendor/jquery/jquery-3.3.1.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SERVER_FARMACIA.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/controller/PedidoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/dao/ProductoDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/dao/SimpleJdbc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/dao/UsuarioDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/dao/impl/ProductoDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/dao/impl/UsuarioiDaoImpl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/dao/impl/UsuarioiDaoImpl$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/dao/impl/UsuarioiDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/daomain/Pedido.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/daomain/Producto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/daomain/ProductoPedido.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/daomain/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/response/ResponseVerificarUsuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/servicios/ProductoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/servicios/UsuarioService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/servicios/impl/ProductoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/farmacia/servicios/servicios/impl/UsuarioServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-03T054132.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/ProductoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/ProductoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/js/directives/producto.directive.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/js/directives/producto.directive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/js/templates/productoPanel.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -281,19 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/directives/app.directive.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="42">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -301,21 +68,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoFarmaceutico.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="56" column="159" selection-start-line="56" selection-start-column="159" selection-end-line="56" selection-end-column="159" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-icon#0;n#button#0;n#div#2;n#div#0;n#h5#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-icon#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-icon#0;n#button#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-icon#0;n#button#0;n#div#2;n#div#0;n#h5#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-icon#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-icon#0;n#button#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -323,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/ProductoDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="-15">
+              <caret line="24" column="173" selection-start-line="24" selection-start-column="167" selection-end-line="24" selection-end-column="173" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -335,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/48f67c09-3d54-41f4-b135-978e63b42b4a/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2130">
-              <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="7" />
+            <state relative-caret-position="-60">
+              <caret line="108" column="23" lean-forward="true" selection-start-line="108" selection-end-line="108" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -344,26 +113,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2130">
-              <caret line="142" selection-start-line="142" selection-end-line="142" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="78">
+              <caret line="155" column="67" selection-start-line="155" selection-start-column="67" selection-end-line="155" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="108">
+              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+              <folding>
+                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1625#1626#0" expanded="true" />
+                <element signature="e#1655#1656#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -371,20 +145,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/directives/producto.directive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state>
+              <caret selection-start-column="3" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/UsuarioiDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/aplication-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="91">
+              <caret line="19" selection-start-line="19" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -412,6 +186,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response1.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -426,7 +203,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/09948fc5-2767-4b51-b0ba-cc5f498404a9/console.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/main.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/components/inicio.component.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/config/route.config.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/app.js" />
@@ -458,14 +234,15 @@
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/ProductoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/impl/ProductoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/ProductoDao.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/48f67c09-3d54-41f4-b135-978e63b42b4a/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/ProductoDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/templates/productoPanel.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/48f67c09-3d54-41f4-b135-978e63b42b4a/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/directives/producto.directive.js" />
+        <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/ProductoDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html" />
-        <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java" />
       </list>
     </option>
   </component>
@@ -563,6 +340,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SERVER_FARMACIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERVER_FARMACIA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SERVER_FARMACIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERVER_FARMACIA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicios" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SERVER_FARMACIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERVER_FARMACIA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servicios" type="462c0819:PsiDirectoryNode" />
               <item name="daomain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -579,6 +384,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SERVER_FARMACIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SERVER_FARMACIA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SERVER_FARMACIA" type="b2602c69:ProjectViewProjectNode" />
@@ -639,7 +453,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/app/js/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -662,6 +476,56 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/SERVER_FARMACIA_war" />
+                <option name="value" value="04E1555BB515186F055CF7B92F1C8911" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="5B05166B034C0CAC4E12CA910175C52C" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8085" />
+          <option name="urlPath" value="/productosPag" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="pagina" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -2084,6 +1948,7 @@
   <component name="RunManager">
     <configuration name="Tomcat 8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost8085/" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -2176,15 +2041,16 @@
       <workItem from="1559589698593" duration="12929000" />
       <workItem from="1559678438297" duration="33159000" />
       <workItem from="1559820787180" duration="37125000" />
-      <workItem from="1559945735605" duration="436000" />
+      <workItem from="1559945735605" duration="6918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115533000" />
+    <option name="totallyTimeSpent" value="122015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2265861" />
       <window_info id="Designer" order="1" />
@@ -2200,19 +2066,19 @@
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49924472" weight="0.46982056" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49697885" weight="0.43066883" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49622357" weight="0.43066883" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3294893" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.5089723" />
+      <window_info anchor="bottom" id="Database Console" order="9" visible="true" weight="0.5089723" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5030211" side_tool="true" weight="0.39967373" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50377643" side_tool="true" weight="0.43066883" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="bottom" id="REST Client" order="17" sideWeight="0.49924472" visible="true" weight="0.45513865" />
+      <window_info anchor="bottom" id="REST Client" order="17" sideWeight="0.49924472" weight="0.49918434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2246,7 +2112,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/ProductoDaoImpl.java</url>
-          <line>43</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
@@ -2272,8 +2138,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/axios.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/vendor/angular-1.6/angular.min.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
@@ -2312,13 +2176,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/config/route.config.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/directives/login.directive.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/directives/inicio.directive.js" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/directives/barra.directive.js" />
@@ -2424,26 +2281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/barraCliente.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ion-icon#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2498,13 +2335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/impl/ProductoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -2540,16 +2370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoFarmaceutico.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2567,10 +2387,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/ProductoDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/barraCliente.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="105">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ion-icon#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/UsuarioiDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="44" selection-start-line="44" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding>
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/aplication-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="19" selection-start-line="19" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/directives/producto.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="3" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="6" lean-forward="true" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2579,46 +2475,35 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/48f67c09-3d54-41f4-b135-978e63b42b4a/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="7" />
+        <state relative-caret-position="-60">
+          <caret line="108" column="23" lean-forward="true" selection-start-line="108" selection-end-line="108" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/ProductoDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/directives/producto.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/UsuarioiDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="-15">
+          <caret line="24" column="173" selection-start-line="24" selection-start-column="167" selection-end-line="24" selection-end-column="173" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="78">
+          <caret line="155" column="67" selection-start-line="155" selection-start-column="67" selection-end-line="155" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="56" column="159" selection-start-line="56" selection-start-column="159" selection-end-line="56" selection-end-column="159" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

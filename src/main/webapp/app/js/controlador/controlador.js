@@ -66,6 +66,8 @@ var controlador = app.controller('MyController',function($scope,$http){
         $scope.mensajeRegistro = null;
         $scope.listaProducto = null;
         $scope.pagina = 1;
+        $scope.class= null;
+        $scope.is=[1,2,3];
         $scope.usuario = {
             id:null,
             dni:null,
@@ -75,7 +77,14 @@ var controlador = app.controller('MyController',function($scope,$http){
             correo:"",
             clave:"",
             telefono:""
-
+        };
+        $scope.producto={
+            idProducto:null,
+            nombre:null,
+            descripcion:null,
+            marca:null,
+            precio:null,
+            url:null
         };
 
     };
@@ -138,7 +147,13 @@ var controlador = app.controller('MyController',function($scope,$http){
         var data = $scope.pagina;
         $http.post('/productosPag','pagina='+data,$scope.config_form).then(function (value) {
             $scope.listaProducto=value.data;
+            console.log($scope.listaProducto);
         });
+    };
+
+    $scope.irPag = function (x){
+        var gaa = "lk-"+x;
+        document.getElementById(gaa).setAttribute("class","activate");
     };
 
     $scope.cerrarSesion = function () {

@@ -54,11 +54,12 @@
 }
 .tam{
     size: 100%;
-    height: 400px;
+    height: 500px;
     /* width: 250px; */
 }
 .altoImagen{
-    size: 100%;
+    height: 221.333px;
+    width: 100%;
 }
 .tam2{
     height: 110px;

@@ -22,7 +22,7 @@ public class ProductoDaoImpl extends SimpleJdbc implements ProductoDao {
     public List<Producto> obtenerProductos(Integer pagina) {
         List<Producto> listaResponse=new ArrayList<Producto>();
         try {
-            String sql = "SELECT ID_PRODUCTO,NOMBRE,MARCA,PRECIO,DESCRIPCION,URL_IMAGEN,VIA_INGRESO FROM (SELECT * FROM (SELECT * FROM PRODUCTO ORDER BY NOMBRE) WHERE ROWNUM<="+pagina*6 +" ORDER BY ROWNUM DESC) WHERE ROWNUM<=6 AND STOCK >0";
+            String sql = "SELECT ID_PRODUCTO,NOMBRE,MARCA,PRECIO,DESCRIPCION,URL_IMAGEN,VIA_INGRESO FROM (SELECT * FROM (SELECT * FROM PRODUCTO ORDER BY NOMBRE) WHERE ROWNUM<="+pagina*12 +" ORDER BY ROWNUM DESC) WHERE ROWNUM<=12 AND STOCK >0 ORDER BY NOMBRE ASC";
             List<Map<String, Object>> lista = getJdbcTemplate().queryForList(sql);
             if(lista!=null && lista.size()>0){
                 for(int i =0;i<lista.size();i++){
@@ -33,6 +33,7 @@ public class ProductoDaoImpl extends SimpleJdbc implements ProductoDao {
                     producto.setPrecio(((BigDecimal) lista.get(i).get("PRECIO")).floatValue());
                     producto.setDescripcion((String)lista.get(i).get("DESCRIPCION"));
                     producto.setViaIngreso((String)lista.get(i).get("VIA_INGRESO"));
+                    producto.setUrl((String)lista.get(i).get("URL_IMAGEN"));
                     listaResponse.add(producto);
                 }
             }

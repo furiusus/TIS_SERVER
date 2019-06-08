@@ -17,6 +17,7 @@ import java.util.List;
 //@CrossOrigin
 
 //@RequestMapping("pedidoController")
+
 public class PedidoController {
     @Autowired
     private UsuarioService usuarioService;
