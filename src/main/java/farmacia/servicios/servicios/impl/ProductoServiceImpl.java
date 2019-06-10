@@ -16,4 +16,15 @@ public class ProductoServiceImpl implements ProductoService {
     public List<Producto> pedirProducto(Integer pagina) {
         return productoDao.obtenerProductos(pagina);
     }
+
+    @Override
+    public Integer totalPagina() {
+        Integer cantPaginas=((Integer)productoDao.contarProductos()/6)+1;
+        return cantPaginas;
+    }
+
+    @Override
+    public List<Producto> pedirProducto(String informacion) {
+        return productoDao.buscarProducto(informacion);
+    }
 }

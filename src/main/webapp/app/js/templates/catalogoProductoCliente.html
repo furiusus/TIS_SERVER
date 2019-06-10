@@ -16,12 +16,12 @@
 <div class="row">
     <div class="col-8 offset-2 fondo-iniciar-sesion justify-content-center minTam">
         <br>
-        <div class="row text-center">
+        <div class="row text-center ">
             <br>
-            <div ng-repeat="producto in listaProducto" class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <div class="card tam centrar">
-                    <img ng-src="{{producto.url}}" class="card-img-top altoImagen" alt="pingaPaTi">
-                    <div class="card-body">
+            <div class=" card-group col-12 col-sm-12 col-md-6 col-lg-4"  ng-repeat="producto in listaProducto">
+                <div class="card border-success centrar mb-3" >
+                    <div class="card-body ">
+                        <img ng-src="{{producto.url}}" class="card-img-top altoImagen" alt="img">
                         <h5 class="card-title">{{producto.nombre}}</h5>
                         <p style="font-size: 10px;" class="card-title">{{producto.descripcion}}</p>
                         <p class="card-text">S/. {{producto.precio}}</p>
@@ -38,11 +38,9 @@
                             <br>
                         </div>
                     </div>
+                    <br>
                 </div>
-                <br>
             </div>
-
-            <br>
         </div>
 
     </div>
@@ -51,12 +49,12 @@
 <div class="row justify-content-center">
     <nav aria-label="...">
         <ul class="pagination">
-            <li class="page-item disabled">
-                <span class="page-link">Anterior</span>
+            <li class="page-item ">
+                <span class="page-link" ng-click="anterior()">Anterior</span>
             </li>
-            <li id="lk-{{i}}" ng-repeat="i in is " class="page-item " ng-class="{{class}}"><a class="page-link" ng-click="irPag({{i}})" href="#">{{i}}</a></li>
+            <li  ng-repeat="p in paginas" class="page-item "><a class="page-link" ng-click="cargarListaProducto(p)">{{p}}</a></li>
             <li class="page-item">
-                <a class="page-link" href="#">Siguiente</a>
+                <a class="page-link" ng-click="siguiente()">Siguiente</a>
             </li>
         </ul>
     </nav>

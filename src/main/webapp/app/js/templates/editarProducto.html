@@ -21,7 +21,7 @@
         <table class="fondo-iniciar-sesion table table-hover">
             <thead class="thead-dark">
             <tr>
-                <th scope="col-2"></th>
+                <th scope="col-2">Nombre</th>
                 <th scope="col-2">Descripcion</th>
                 <th scope="col-1">Precio</th>
                 <th scope="col-2">Stock disponible</th>
@@ -31,37 +31,34 @@
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>Paracetamol</td>
-                <td>150 g.</td>
-                <td>S/. 1.00</td>
-                <td>234 u</td>
-                <td><button class="btn"><ion-icon style="font-size:20px" name="create"></ion-icon></button></td>
-                <td></td>
-                <td></td>
+            <tr ng-repeat="producto in listaProducto">
+                <td>{{producto.nombre}}</td>
+                <td ng-if="producto.idProducto!=productoEditar">{{producto.descripcion}}</td>
+                <td ng-if="producto.idProducto==productoEditar"><textarea type="text" ng-value="producto.descripcion"></textarea></td>
+                <td ng-if="producto.idProducto!=productoEditar">S/. {{producto.precio}}</td>
+                <td ng-if="producto.idProducto==productoEditar"> <input type="text" ng-value="+producto.precio"></td>
+                <td ng-if="producto.idProducto!=productoEditar">{{producto.stock}} u</td>
+                <td ng-if="producto.idProducto==productoEditar"><input type="text" ng-value="producto.stock"></td>
+                <td ng-if="producto.idProducto!=productoEditar"><button class="btn" ng-click="editarProducto(producto.idProducto)"><ion-icon style="font-size:20px" name="create" ></ion-icon></button></td>
+                <td ng-if="producto.idProducto==productoEditar"><button class="btn" ng-click="editarProducto(0)"><ion-icon style="font-size:20px" name="checkbox"></ion-icon></button></td>
+                <td ng-if="producto.idProducto==productoEditar"><button class="btn"><ion-icon style="font-size:20px" name="trash"></ion-icon></button></td>
             </tr>
-            <tr>
-                <td>Ibuprofeno</td>
-                <td>150 g.</td>
-                <td>S/.<input class="col-4" type="text" style="opacity: .5" value="1.00"></td>
-                <td><input class="col-4" type="text" style="opacity: .5" value="4">u.</td>
-                <td></td>
-                <td><button class="btn"><ion-icon style="font-size:20px" name="checkbox"></ion-icon></button></td>
-                <td><button class="btn"><ion-icon style="font-size:20px" name="trash"></ion-icon></button></td>
-
-            </tr>
-            <tr>
-                <td>Amoxicilina</td>
-                <td>150 g.</td>
-                <td>S/. 1.00</td>
-                <td>234 u</td>
-                <td><button class="btn"><ion-icon style="font-size:20px" name="create"></ion-icon></button></td>
-                <td></td>
-                <td></td>
-            </tr>
-
             </tbody>
         </table>
     </div>
 </div>
+</div>
+<br>
+<div class="row justify-content-center">
+    <nav aria-label="...">
+        <ul class="pagination">
+            <li class="page-item ">
+                <span class="page-link" ng-click="anterior()">Anterior</span>
+            </li>
+            <li  ng-repeat="p in paginas" class="page-item "><a class="page-link" ng-click="cargarListaProducto(p)">{{p}}</a></li>
+            <li class="page-item">
+                <a class="page-link" ng-click="siguiente()">Siguiente</a>
+            </li>
+        </ul>
+    </nav>
 </div>

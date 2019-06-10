@@ -42,4 +42,13 @@ public class PedidoController {
         return productoService.pedirProducto(pagina);
     }
 
+    @RequestMapping(value = "/totalPagina", method = RequestMethod.POST,produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody Integer totalPaginas(){
+        return productoService.totalPagina();
+    }
+
+    @RequestMapping(value = "/buscarProducto",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody List<Producto> buscarProducto(@RequestParam String informacion){
+        return productoService.pedirProducto(informacion);
+    }
 }

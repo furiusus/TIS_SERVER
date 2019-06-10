@@ -41,7 +41,8 @@ var controlador = app.controller('MyController',function($scope,$http){
     $scope.irCatalogoProductoClienteV = function(){
         $scope.ocultarV();
         $scope.catalogoProductoClienteV=true;
-        $scope.cargarListaProducto();
+        $scope.contarPagina();
+        $scope.cargarListaProducto($scope.pagina);
     };
 
     $scope.irListaPedidoClienteV= function(){
@@ -57,6 +58,8 @@ var controlador = app.controller('MyController',function($scope,$http){
     $scope.irEditarProductoV= function(){
         $scope.ocultarV();
         $scope.editarProductoV=true;
+        $scope.contarPagina();
+        $scope.cargarListaProducto($scope.pagina);
     };
 
     // VARIABLES
@@ -65,9 +68,9 @@ var controlador = app.controller('MyController',function($scope,$http){
         $scope.mensajeLogin = null;
         $scope.mensajeRegistro = null;
         $scope.listaProducto = null;
+        $scope.paginas = [];
         $scope.pagina = 1;
-        $scope.class= null;
-        $scope.is=[1,2,3];
+        $scope.productoEditar = 0;
         $scope.usuario = {
             id:null,
             dni:null,
@@ -84,7 +87,8 @@ var controlador = app.controller('MyController',function($scope,$http){
             descripcion:null,
             marca:null,
             precio:null,
-            url:null
+            url:null,
+            stock:null
         };
 
     };
@@ -143,17 +147,36 @@ var controlador = app.controller('MyController',function($scope,$http){
         }
     };
 
-    $scope.cargarListaProducto=function(){
+    $scope.cargarListaProducto=function(p){
+        $scope.pagina=p;
         var data = $scope.pagina;
         $http.post('/productosPag','pagina='+data,$scope.config_form).then(function (value) {
             $scope.listaProducto=value.data;
-            console.log($scope.listaProducto);
         });
     };
 
-    $scope.irPag = function (x){
-        var gaa = "lk-"+x;
-        document.getElementById(gaa).setAttribute("class","activate");
+    $scope.contarPagina = function(){
+        $http.post('/totalPagina',{}).then(function (value) {
+            var paginas = value.data;
+            for(var p=1;p<=paginas;p++){$scope.paginas.splice(p-1,0,p);}
+        });
+    };
+    $scope.siguiente = function(){
+        if($scope.paginas.length!=$scope.pagina){
+            $scope.pagina=$scope.pagina+1;
+            $scope.cargarListaProducto($scope.pagina);
+        }
+    };
+    $scope.anterior = function(){
+        if($scope.pagina!=1){
+            $scope.pagina=$scope.pagina-1;
+            $scope.cargarListaProducto($scope.pagina);
+        }
+
+    };
+
+    $scope.editarProducto=function(idProd){
+        $scope.productoEditar = idProd;
     };
 
     $scope.cerrarSesion = function () {
