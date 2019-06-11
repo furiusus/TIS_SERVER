@@ -51,4 +51,9 @@ public class PedidoController {
     public @ResponseBody List<Producto> buscarProducto(@RequestParam String informacion){
         return productoService.pedirProducto(informacion);
     }
+
+    @RequestMapping(value = "/editarProducto",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody Boolean editarProducto(@RequestBody Producto producto){
+        return productoService.editarProducto(producto);
+    }
 }

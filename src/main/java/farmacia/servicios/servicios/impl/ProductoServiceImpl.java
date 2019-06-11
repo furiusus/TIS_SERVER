@@ -27,4 +27,15 @@ public class ProductoServiceImpl implements ProductoService {
     public List<Producto> pedirProducto(String informacion) {
         return productoDao.buscarProducto(informacion);
     }
+
+    @Override
+    public Boolean editarProducto(Producto producto) {
+        if(producto.getDescripcion().length()<=254 && producto.getPrecio()<=999.99 && producto.getPrecio()>=0 && producto.getStock()>=0){
+            productoDao.editarProducto(producto);
+            return true;
+        }else{
+            return false;
+        }
+
+    }
 }

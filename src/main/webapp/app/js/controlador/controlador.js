@@ -41,8 +41,12 @@ var controlador = app.controller('MyController',function($scope,$http){
     $scope.irCatalogoProductoClienteV = function(){
         $scope.ocultarV();
         $scope.catalogoProductoClienteV=true;
-        $scope.contarPagina();
-        $scope.cargarListaProducto($scope.pagina);
+        if($scope.busquedaProducto.busqueda) {
+
+        }else{
+            $scope.contarPagina();
+            $scope.cargarListaProducto($scope.pagina);
+        }
     };
 
     $scope.irListaPedidoClienteV= function(){
@@ -69,8 +73,17 @@ var controlador = app.controller('MyController',function($scope,$http){
         $scope.mensajeRegistro = null;
         $scope.listaProducto = null;
         $scope.paginas = [];
+        $scope.ubicacion = {
+            paginaUp : 11,
+            paginaDown : 1,
+            paginas:null
+        };
         $scope.pagina = 1;
         $scope.productoEditar = 0;
+        $scope.busquedaProducto = {
+            busqueda:false,
+            informacion:null,
+        };
         $scope.usuario = {
             id:null,
             dni:null,
@@ -149,35 +162,80 @@ var controlador = app.controller('MyController',function($scope,$http){
 
     $scope.cargarListaProducto=function(p){
         $scope.pagina=p;
+        if (p>=$scope.ubicacion.paginaDown+($scope.ubicacion.paginaUp-$scope.ubicacion.paginaDown)/2){
+            $scope.aumentarPaginaUp();
+        }else{
+            $scope.disminuriPaginaDown();
+        }
         var data = $scope.pagina;
         $http.post('/productosPag','pagina='+data,$scope.config_form).then(function (value) {
             $scope.listaProducto=value.data;
         });
     };
 
+    $scope.buscarProducto =  function (){
+        if($scope.busquedaProducto.informacion !="" && $scope.busquedaProducto.informacion.length>=3) {
+            $scope.busquedaProducto.busqueda = true;
+            var data = $scope.busquedaProducto.informacion;
+            $http.post('/buscarProducto', 'informacion=' + data, $scope.config_form).then(function (value) {
+                $scope.listaProducto = value.data;
+            });
+        }
+    };
+
     $scope.contarPagina = function(){
         $http.post('/totalPagina',{}).then(function (value) {
             var paginas = value.data;
-            for(var p=1;p<=paginas;p++){$scope.paginas.splice(p-1,0,p);}
+            $scope.ubicacion.paginas = value.data;
+            $scope.actualizarPaginado(paginas);
         });
+    };
+    $scope.actualizarPaginado = function (paginas){
+        $scope.paginas = [];
+        for(var p=1;p<=paginas;p++){
+            if(p<=$scope.ubicacion.paginaUp && p>=$scope.ubicacion.paginaDown){
+                $scope.paginas.splice(p-1,0,p);
+            }
+
+        }
     };
     $scope.siguiente = function(){
         if($scope.paginas.length!=$scope.pagina){
             $scope.pagina=$scope.pagina+1;
             $scope.cargarListaProducto($scope.pagina);
+            $scope.aumentarPaginaUp();
+            $scope.actualizarPaginado($scope.ubicacion.paginas);
         }
     };
     $scope.anterior = function(){
         if($scope.pagina!=1){
             $scope.pagina=$scope.pagina-1;
             $scope.cargarListaProducto($scope.pagina);
+            $scope.disminuriPaginaDown();
+            $scope.actualizarPaginado($scope.ubicacion.paginas);
         }
 
     };
-
+    $scope.aumentarPaginaUp = function(){
+        $scope.ubicacion.paginaUp =$scope.ubicacion.paginaUp+1;
+        $scope.ubicacion.paginaDown =$scope.ubicacion.paginaDown+1;
+        $scope.actualizarPaginado($scope.ubicacion.paginas);
+    };
+    $scope.disminuriPaginaDown = function(){
+        $scope.ubicacion.paginaUp =$scope.ubicacion.paginaUp-1;
+        $scope.ubicacion.paginaDown =$scope.ubicacion.paginaDown-1;
+        $scope.actualizarPaginado($scope.ubicacion.paginas);
+    };
     $scope.editarProducto=function(idProd){
         $scope.productoEditar = idProd;
     };
+    $scope.enviarProducto = function(producto){
+        console.log(producto);
+        /*
+        AQUI ME QUEDE RONNY
+         */
+    };
+
 
     $scope.cerrarSesion = function () {
         $scope.irInicioV();

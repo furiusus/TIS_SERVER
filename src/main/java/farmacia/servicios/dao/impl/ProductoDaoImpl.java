@@ -97,4 +97,13 @@ public class ProductoDaoImpl extends SimpleJdbc implements ProductoDao {
         }
         return listaResponse;
     }
+    @Override
+    public void editarProducto (Producto producto){
+        try{
+            String sql = "UPDATE PRODUCTO SET DESCRIPCION=UPPER(?),PRECIO=?,STOCK=? WHERE ID_PRODUCTO = ?";
+            getJdbcTemplate().update(sql,new Object[]{producto.getDescripcion(),producto.getPrecio(),producto.getStock(),producto.getIdProducto()});
+        }catch(NullPointerException e){
+            System.out.println(e);
+        }
+    }
 }

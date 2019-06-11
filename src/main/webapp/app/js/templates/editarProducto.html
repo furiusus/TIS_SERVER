@@ -34,13 +34,13 @@
             <tr ng-repeat="producto in listaProducto">
                 <td>{{producto.nombre}}</td>
                 <td ng-if="producto.idProducto!=productoEditar">{{producto.descripcion}}</td>
-                <td ng-if="producto.idProducto==productoEditar"><textarea type="text" ng-value="producto.descripcion"></textarea></td>
+                <td ng-if="producto.idProducto==productoEditar"><textarea type="text" ng-value="producto.descripcion" ng-model="producto.descripcion"></textarea></td>
                 <td ng-if="producto.idProducto!=productoEditar">S/. {{producto.precio}}</td>
-                <td ng-if="producto.idProducto==productoEditar"> <input type="text" ng-value="+producto.precio"></td>
+                <td ng-if="producto.idProducto==productoEditar"> <input type="number" ng-value="producto.precio" ng-model="producto.precio"></td>
                 <td ng-if="producto.idProducto!=productoEditar">{{producto.stock}} u</td>
-                <td ng-if="producto.idProducto==productoEditar"><input type="text" ng-value="producto.stock"></td>
+                <td ng-if="producto.idProducto==productoEditar"><input type="number" ng-value="producto.stock" ng-model="producto.stock"></td>
                 <td ng-if="producto.idProducto!=productoEditar"><button class="btn" ng-click="editarProducto(producto.idProducto)"><ion-icon style="font-size:20px" name="create" ></ion-icon></button></td>
-                <td ng-if="producto.idProducto==productoEditar"><button class="btn" ng-click="editarProducto(0)"><ion-icon style="font-size:20px" name="checkbox"></ion-icon></button></td>
+                <td ng-if="producto.idProducto==productoEditar"><button class="btn" ng-click="enviarProducto(producto)"><ion-icon style="font-size:20px" name="checkbox"></ion-icon></button></td>
                 <td ng-if="producto.idProducto==productoEditar"><button class="btn"><ion-icon style="font-size:20px" name="trash"></ion-icon></button></td>
             </tr>
             </tbody>

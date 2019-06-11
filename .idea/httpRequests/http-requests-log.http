@@ -1,3 +1,52 @@
+POST http://localhost:8085/editarProducto
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "descripcion":"6 UNIDADES DE JABON 90G C/U",   "precio": 7.8,   "stock": 50 , "idProducto": 13}
+
+<> 2019-06-10T073254.200.json
+
+###
+
+POST http://localhost:8085/editarProducto
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "descripcion":"6 UNIDADES DE JABON 90G C/U",   "precio": 7.8,   "stock": 20 , "idProducto": 13}
+
+<> 2019-06-10T073219.200.json
+
+###
+
+POST http://localhost:8085/editarProducto
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "descripcion":"6 UNIDADES DE JABON 90G C/U",   "precio": 7.8,   "stock": 20 , "idProducto": 13}
+
+###
+
+POST http://localhost:8085/productosPag?pagina=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-10T012516.200.json
+
+###
+
+POST http://localhost:8085/buscarProducto?informacion=jab
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-10T120818.200.json
+
+###
+
 POST http://localhost:8085/buscarProducto?informacion=jab
 Accept: */*
 Cache-Control: no-cache
@@ -412,61 +461,6 @@ Content-Type: application/json
 {   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
 
 <> 2019-06-06T115143.500.html
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
-
-<> 2019-06-06T115126.500.html
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwearty" }
-
-<> 2019-06-06T114537.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
-
-<> 2019-06-06T114530.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
-
-<> 2019-06-06T104021.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
-
-<> 2019-06-06T104017.200.json
 
 ###
 

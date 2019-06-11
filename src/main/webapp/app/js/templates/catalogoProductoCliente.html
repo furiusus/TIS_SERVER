@@ -7,7 +7,7 @@
 <div class="row">
     <div class="col-3"></div>
     <div class="col-6 text-center">
-        <input type="text" class="form-control" id="txtProductoBuscar" placeholder="Buscar producto">
+        <input type="text" class="form-control" id="txtProductoBuscar" placeholder="Buscar producto" ng-model="busquedaProducto.informacion" ng-change="buscarProducto() ">
     </div>
     <div class="col-3"></div>
 </div>
@@ -18,7 +18,7 @@
         <br>
         <div class="row text-center ">
             <br>
-            <div class=" card-group col-12 col-sm-12 col-md-6 col-lg-4"  ng-repeat="producto in listaProducto">
+            <div ng-if="listaProducto" class=" card-group col-12 col-sm-12 col-md-6 col-lg-4"  ng-repeat="producto in listaProducto">
                 <div class="card border-success centrar mb-3" >
                     <div class="card-body ">
                         <img ng-src="{{producto.url}}" class="card-img-top altoImagen" alt="img">
@@ -52,7 +52,7 @@
             <li class="page-item ">
                 <span class="page-link" ng-click="anterior()">Anterior</span>
             </li>
-            <li  ng-repeat="p in paginas" class="page-item "><a class="page-link" ng-click="cargarListaProducto(p)">{{p}}</a></li>
+            <li   ng-repeat="p in paginas" class="page-item "><a class="page-link" ng-click="cargarListaProducto(p)" ng-if="p<=ubicacion.paginaUp && p>=ubicacion.paginaDown">{{p}}</a></li>
             <li class="page-item">
                 <a class="page-link" ng-click="siguiente()">Siguiente</a>
             </li>
