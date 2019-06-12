@@ -59,11 +59,11 @@
 <hr class="line"/>
 <p><b>Tipo</b> Informe de Excepción</p>
 <p><b>mensaje</b> Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException:
-    StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM PRODUTO]; nested exception is
-    java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist</p>
+    PreparedStatementCallback; bad SQL grammar [select ID_PEDIDO from pedido where id_cliente=? &amp;&amp; estado=3];
+    nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended</p>
 <p><b>descripción</b> El servidor encontró un error interno que hizo que no pudiera rellenar este requerimiento.</p>
 <p><b>excepción</b></p>
-<pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM PRODUTO]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+<pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select ID_PEDIDO from pedido where id_cliente=? &amp;&amp; estado=3]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
 
 	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
 	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
@@ -75,18 +75,21 @@
 	org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:170)
 </pre>
 <p><b>causa raíz</b></p>
-<pre>org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM PRODUTO]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+<pre>org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select ID_PEDIDO from pedido where id_cliente=? &amp;&amp; estado=3]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
 
-	org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:231)
+	org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:91)
 	org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
-	org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:419)
-	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:474)
-	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:484)
-	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:494)
-	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:500)
-	farmacia.servicios.dao.impl.ProductoDaoImpl.contarProductos(ProductoDaoImpl.java:62)
-	farmacia.servicios.servicios.impl.ProductoServiceImpl.totalPagina(ProductoServiceImpl.java:22)
-	farmacia.servicios.controller.PedidoController.totalPaginas(PedidoController.java:47)
+	org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:649)
+	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:684)
+	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:716)
+	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:726)
+	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:794)
+	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:813)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.existePedido(PedidoDaoImpl.java:81)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.crearProductoPedido(PedidoDaoImpl.java:88)
+	farmacia.servicios.servicios.impl.PedidoServiceImpl.crearCompra(PedidoServiceImpl.java:49)
+	farmacia.servicios.controller.PedidoController.agregarCompra(PedidoController.java:97)
 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -109,7 +112,7 @@
 	org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:170)
 </pre>
 <p><b>causa raíz</b></p>
-<pre>java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+<pre>java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
 
 	oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
 	oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
@@ -117,24 +120,27 @@
 	oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
 	oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
 	oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
-	oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:202)
-	oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:45)
-	oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:766)
+	oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
 	oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
 	oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
-	oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:1244)
-	oracle.jdbc.driver.OracleStatementWrapper.executeQuery(OracleStatementWrapper.java:420)
-	org.apache.tomcat.dbcp.dbcp2.DelegatingStatement.executeQuery(DelegatingStatement.java:235)
-	org.apache.tomcat.dbcp.dbcp2.DelegatingStatement.executeQuery(DelegatingStatement.java:235)
-	org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:458)
-	org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:408)
-	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:474)
-	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:484)
-	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:494)
-	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:500)
-	farmacia.servicios.dao.impl.ProductoDaoImpl.contarProductos(ProductoDaoImpl.java:62)
-	farmacia.servicios.servicios.impl.ProductoServiceImpl.totalPagina(ProductoServiceImpl.java:22)
-	farmacia.servicios.controller.PedidoController.totalPaginas(PedidoController.java:47)
+	oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:107)
+	org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:107)
+	org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:692)
+	org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:684)
+	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:716)
+	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:726)
+	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:794)
+	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:813)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.existePedido(PedidoDaoImpl.java:81)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.crearProductoPedido(PedidoDaoImpl.java:88)
+	farmacia.servicios.servicios.impl.PedidoServiceImpl.crearCompra(PedidoServiceImpl.java:49)
+	farmacia.servicios.controller.PedidoController.agregarCompra(PedidoController.java:97)
 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

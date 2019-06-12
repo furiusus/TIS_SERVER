@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+<head><title>Estado HTTP 500 – Internal Server Error</title>
+    <style type="text/css">h1 {
+        font-family: Tahoma, Arial, sans-serif;
+        color: white;
+        background-color: #525D76;
+        font-size: 22px;
+    }
+
+    h2 {
+        font-family: Tahoma, Arial, sans-serif;
+        color: white;
+        background-color: #525D76;
+        font-size: 16px;
+    }
+
+    h3 {
+        font-family: Tahoma, Arial, sans-serif;
+        color: white;
+        background-color: #525D76;
+        font-size: 14px;
+    }
+
+    body {
+        font-family: Tahoma, Arial, sans-serif;
+        color: black;
+        background-color: white;
+    }
+
+    b {
+        font-family: Tahoma, Arial, sans-serif;
+        color: white;
+        background-color: #525D76;
+    }
+
+    p {
+        font-family: Tahoma, Arial, sans-serif;
+        background: white;
+        color: black;
+        font-size: 12px;
+    }
+
+    a {
+        color: black;
+    }
+
+    a.name {
+        color: black;
+    }
+
+    .line {
+        height: 1px;
+        background-color: #525D76;
+        border: none;
+    }</style>
+</head>
+<body><h1>Estado HTTP 500 – Internal Server Error</h1>
+<hr class="line"/>
+<p><b>Tipo</b> Informe de Excepción</p>
+<p><b>mensaje</b> Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException:
+    Incorrect result size: expected 1, actual 0</p>
+<p><b>descripción</b> El servidor encontró un error interno que hizo que no pudiera rellenar este requerimiento.</p>
+<p><b>excepción</b></p>
+<pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:364)
+	org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:170)
+</pre>
+<p><b>causa raíz</b></p>
+<pre>org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
+	org.springframework.dao.support.DataAccessUtils.requiredSingleResult(DataAccessUtils.java:71)
+	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:795)
+	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:813)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.existePedido(PedidoDaoImpl.java:81)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.crearProductoPedido(PedidoDaoImpl.java:90)
+	farmacia.servicios.servicios.impl.PedidoServiceImpl.crearCompra(PedidoServiceImpl.java:49)
+	farmacia.servicios.controller.PedidoController.agregarCompra(PedidoController.java:97)
+	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:498)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:364)
+	org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:170)
+</pre>
+<p><b>nota</b> La traza completa de la causa de este error se encuentra en los archivos de diario del servidor.</p>
+<hr class="line"/>
+<h3>Apache Tomcat/8.5.41</h3></body>
+</html>

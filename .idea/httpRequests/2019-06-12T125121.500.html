@@ -58,11 +58,11 @@
 <body><h1>Estado HTTP 500 – Internal Server Error</h1>
 <hr class="line"/>
 <p><b>Tipo</b> Informe de Excepción</p>
-<p><b>mensaje</b> Request processing failed; nested exception is java.lang.ClassCastException: java.math.BigDecimal
-    cannot be cast to java.lang.Float</p>
+<p><b>mensaje</b> Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException:
+    Incorrect result size: expected 1, actual 0</p>
 <p><b>descripción</b> El servidor encontró un error interno que hizo que no pudiera rellenar este requerimiento.</p>
 <p><b>excepción</b></p>
-<pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Float
+<pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
 	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
 	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
 	javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
@@ -73,10 +73,14 @@
 	org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:170)
 </pre>
 <p><b>causa raíz</b></p>
-<pre>java.lang.ClassCastException: java.math.BigDecimal cannot be cast to java.lang.Float
-	farmacia.servicios.dao.impl.ProductoDaoImpl.obtenerProductos(ProductoDaoImpl.java:32)
-	farmacia.servicios.servicios.impl.ProductoServiceImpl.pedirProducto(ProductoServiceImpl.java:17)
-	farmacia.servicios.controller.PedidoController.productosPag(PedidoController.java:39)
+<pre>org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
+	org.springframework.dao.support.DataAccessUtils.requiredSingleResult(DataAccessUtils.java:71)
+	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:795)
+	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:813)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.existePedido(PedidoDaoImpl.java:81)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.crearProductoPedido(PedidoDaoImpl.java:90)
+	farmacia.servicios.servicios.impl.PedidoServiceImpl.crearCompra(PedidoServiceImpl.java:49)
+	farmacia.servicios.controller.PedidoController.agregarCompra(PedidoController.java:97)
 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

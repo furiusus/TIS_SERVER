@@ -1,0 +1,65 @@
+{
+  "listaProductoPedido": [
+    {
+      "nombre": "JABON PALMOLIVE JASMIN/CONO",
+      "descripcion": "3 UNIDADES DE JABON 130G C/ U",
+      "precio": 7.3,
+      "cantidad": 15
+    },
+    {
+      "nombre": "DALSY",
+      "descripcion": "40 MG/ML SUSPENSION ORAL 150 ML /IBUPROFENO 40 MG 150 ML ",
+      "precio": 7.5,
+      "cantidad": 8
+    },
+    {
+      "nombre": "DALSY",
+      "descripcion": "40 MG/ML SUSPENSION ORAL 150 ML /IBUPROFENO 40 MG 150 ML ",
+      "precio": 7.5,
+      "cantidad": 8
+    },
+    {
+      "nombre": "DAFALGAN",
+      "descripcion": "PARACETAMOL 1000 MG 16 PASTILLAS COMPRIMIDAS",
+      "precio": 7.0,
+      "cantidad": 15
+    },
+    {
+      "nombre": "SHAMPOO MANZANA FRESH FRESCO HEAD ",
+      "descripcion": "FRASCO DE 180 ML",
+      "precio": 10.9,
+      "cantidad": 5
+    },
+    {
+      "nombre": "SHAMPOO RESTAURACION PANTENE ",
+      "descripcion": "FRASCO DE 200 ML",
+      "precio": 11.5,
+      "cantidad": 12
+    },
+    {
+      "nombre": "APIREDOL",
+      "descripcion": "PARACETAMOL 100 MG/ML GOTAS 30 ML",
+      "precio": 3.12,
+      "cantidad": 30
+    },
+    {
+      "nombre": "APIREDOL",
+      "descripcion": "PARACETAMOL 100 MG/ML GOTAS 60 ML",
+      "precio": 3.12,
+      "cantidad": 12
+    },
+    {
+      "nombre": "SHAMPOO MANZANA FRESH FRESCO HEAD ",
+      "descripcion": "FRASCO DE 180 ML",
+      "precio": 10.9,
+      "cantidad": 12
+    },
+    {
+      "nombre": "SHAMPOO MANZANA FRESH FRESCO HEAD ",
+      "descripcion": "FRASCO DE 180 ML",
+      "precio": 10.9,
+      "cantidad": 56
+    }
+  ],
+  "precioTotal": 1399.24
+}

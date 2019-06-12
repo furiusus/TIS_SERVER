@@ -51,6 +51,7 @@ var controlador = app.controller('MyController',function($scope,$http){
 
     $scope.irListaPedidoClienteV= function(){
         $scope.ocultarV();
+        $scope.pedirPedidoClienteVigente();
         $scope.listaPedidoClienteV=true;
     };
 
@@ -87,7 +88,7 @@ var controlador = app.controller('MyController',function($scope,$http){
         };
         $scope.listaPedidos = null;
         $scope.usuario = {
-            id:null,
+            idUsuario:null,
             dni:null,
             nombres:null,
             apellidos:null,
@@ -103,7 +104,8 @@ var controlador = app.controller('MyController',function($scope,$http){
             marca:null,
             precio:null,
             url:null,
-            stock:null
+            stock:null,
+            cantidad:null
         };
         $scope.pedido={
             idPedido:null,
@@ -118,11 +120,17 @@ var controlador = app.controller('MyController',function($scope,$http){
             precio:null,
             cantidad:null
         };
+        $scope.compra = {
+            idProducto:null,
+            idCliente:null,
+            cantidad:null
+        };
         $scope.precioTotal=null;
         $scope.listaProductoPedido=null;
         $scope.countP = 0;
     };
     $scope.definirVariables();
+
 
     // CONFIGURACION DE CONEXION
 
@@ -256,7 +264,7 @@ var controlador = app.controller('MyController',function($scope,$http){
     };
 
     $scope.pedirPedido =function(){
-        $http.post('/pedirPedido',$scope.config_json).then(function (value) {
+        $http.post('/pedirPedidoFarmaceutico',$scope.config_json).then(function (value) {
             $scope.listaPedidos = value.data;
         })
     };
@@ -265,6 +273,40 @@ var controlador = app.controller('MyController',function($scope,$http){
         $http.post('/pedirProductoPedido','idPedido='+idPedido,$scope.config_form).then(function (value) {
            $scope.listaProductoPedido =value.data.listaProductoPedido;
            $scope.precioTotal = value.data.precioTotal;
+        });
+    };
+
+    $scope.entregarPedido = function (idPedido) {
+        $http.post('/entregarPedido','idPedido='+idPedido,$scope.config_form).then(function (value) {
+            $scope.pedirPedido(idPedido);
+        })
+    };
+    $scope.eliminarPedido = function (idPedido) {
+        $http.post('/eliminarPedido','idPedido='+idPedido,$scope.config_form).then(function (value) {
+            $scope.pedirPedido(idPedido);
+        })
+    };
+    $scope.agregarCompra=function(idProducto,cantidad){
+        if(cantidad>0) {
+            $scope.compra.idCliente = $scope.usuario.idUsuario;
+            $scope.compra.idProducto = idProducto;
+            $scope.compra.cantidad = cantidad;
+            var data = $scope.compra;
+            $http.post('/agregarCompra', data, $scope.config_json).then(function (value) {
+                if(value.data==0){
+                    alert("PRODUCTO AGREGADO");
+                }else{
+                    alert("NO DISPONEMOS DE LA CANTIDAD SOLICITADA\nCONTAMOS CON "+value.data+" UNIDADES");
+                }
+            });
+        }
+    };
+
+    $scope.pedirPedidoClienteVigente=function(){
+        $http.post('/pedirPedidoClienteVigente','idCliente='+$scope.usuario.idUsuario,$scope.config_form).then(function (value) {
+            console.log(value.data);
+            $scope.listaProductoPedido =value.data.listaProductoPedido;
+            $scope.precioTotal = value.data.precioTotal;
         });
     };
 

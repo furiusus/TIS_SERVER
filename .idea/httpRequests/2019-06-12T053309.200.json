@@ -1,0 +1,11 @@
+{
+  "listaProductoPedido": [
+    {
+      "nombre": "DALSY",
+      "descripcion": "40 MG/ML SUSPENSION ORAL 150 ML /IBUPROFENO 40 MG 150 ML ",
+      "precio": 7.5,
+      "cantidad": 8
+    }
+  ],
+  "precioTotal": 60.0
+}

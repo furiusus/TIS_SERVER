@@ -1,0 +1,11 @@
+{
+  "listaProductoPedido": [
+    {
+      "nombre": "DAFALGAN",
+      "descripcion": "PARACETAMOL 1000 MG 16 PASTILLAS COMPRIMIDAS",
+      "precio": 7.0,
+      "cantidad": 15
+    }
+  ],
+  "precioTotal": 105.0
+}

@@ -1,3 +1,395 @@
+POST http://localhost:8085/pedirPedidoClienteVigente?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-12T053705.200.json
+
+###
+
+POST http://localhost:8085/pedirPedidoClienteVigente?idCliente=4
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-12T053425.200.json
+
+###
+
+POST http://localhost:8085/pedirPedidoClienteVigente?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-12T053331.200.json
+
+###
+
+POST http://localhost:8085/pedirPedidoClienteVigente?idCliente=3
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-12T053309.200.json
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":8,"idCliente":2,"cantidad":15123123}
+
+<> 2019-06-12T033729.200.json
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":8,"idCliente":2,"cantidad":15}
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":8,"idCliente":4,"cantidad":15}
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":3,"cantidad":8}
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":3,"cantidad":8}
+
+<> 2019-06-12T013433.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":3,"cantidad":8}
+
+<> 2019-06-12T013218.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":3,"cantidad":8}
+
+<> 2019-06-12T013136.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":3,"cantidad":8}
+
+<> 2019-06-12T013010.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":3,"cantidad":8}
+
+<> 2019-06-12T012130.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":3,"cantidad":8}
+
+<> 2019-06-12T012054.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":3,"cantidad":8}
+
+<> 2019-06-12T011856.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":3,"cantidad":8}
+
+<> 2019-06-12T011837.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":2,"cantidad":8}
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":2,"cantidad":80}
+
+<> 2019-06-12T011332.200.json
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":2,"cantidad":8}
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":10,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T011032.200.json
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T010255.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T125627.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T125503.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T125412.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T125217.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T125121.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T124437.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T124221.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T124109.500.html
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+###
+
+POST http://localhost:8085/agregarCompra
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+{"idProducto":14,"idCliente":2,"cantidad":15}
+
+<> 2019-06-12T123959.500.html
+
+###
+
+POST http://localhost:8085/eliminarPedido?idPedido=2
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-12T065652.200.json
+
+###
+
+POST http://localhost:8085/eliminarPedido?idPedido=2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-12T065211.200.json
+
+###
+
+POST http://localhost:8085/eliminarPedido?idPedido=2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T092846.500.html
+
+###
+
+POST http://localhost:8085/eliminarPedido?idPedido=5
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T092819.500.html
+
+###
+
+POST http://localhost:8085/eliminarPedido?idPedido=5
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T092720.404.html
+
+###
+
 POST http://localhost:8085/pedirProductoPedido?idPedido=1
 Accept: */*
 Cache-Control: no-cache
@@ -90,345 +482,6 @@ POST http://localhost:8085/pedirPedido
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T032307.404.html
-
-###
-
-POST http://localhost:8085/editarProducto
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "descripcion":"6 UNIDADES DE JABON 90G C/U",   "precio": 7.8,   "stock": 50 , "idProducto": 13}
-
-<> 2019-06-10T073254.200.json
-
-###
-
-POST http://localhost:8085/editarProducto
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "descripcion":"6 UNIDADES DE JABON 90G C/U",   "precio": 7.8,   "stock": 20 , "idProducto": 13}
-
-<> 2019-06-10T073219.200.json
-
-###
-
-POST http://localhost:8085/editarProducto
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "descripcion":"6 UNIDADES DE JABON 90G C/U",   "precio": 7.8,   "stock": 20 , "idProducto": 13}
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-10T012516.200.json
-
-###
-
-POST http://localhost:8085/buscarProducto?informacion=jab
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-10T120818.200.json
-
-###
-
-POST http://localhost:8085/buscarProducto?informacion=jab
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T114146.200.json
-
-###
-
-POST http://localhost:8085/buscarProducto?informacion=jan
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T114139.200.json
-
-###
-
-POST http://localhost:8085/buscarProducto?informacion=shampo
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T114131.200.json
-
-###
-
-POST http://localhost:8085/buscarProducto?informacion=APIREDOl
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T114125.200.json
-
-###
-
-POST http://localhost:8085/buscarProducto?informacion=APIREDOl
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T114035.200.json
-
-###
-
-POST http://localhost:8085/buscarProducto?informacion=APIREDOL
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T114030.200.json
-
-###
-
-POST http://localhost:8085/buscarProducto?informacion=APIRDOL
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T114025.200.json
-
-###
-
-POST http://localhost:8085/buscarProducto?informacion=APIR
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T113856.200.json
-
-###
-
-POST http://localhost:8085/productosPag?informacion=APIR
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T113850.400.html
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T083040.200.json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/totalPagina
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-09T081859.200.json
-
-###
-
-POST http://localhost:8085/totalPagina
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{}
-
-<> 2019-06-09T081653.200.json
-
-###
-
-POST http://localhost:8085/totalPagina
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{}
-
-<> 2019-06-09T081343.500.html
-
-###
-
-POST http://localhost:8085/totalPagina
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{}
-
-<> 2019-06-09T081241.500.html
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T072823.200.json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T124939.200.json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T124853.200.json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T124712.200.json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T124630.200.json
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T124102.500.html
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T124005.500.html
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T123607.500.html
 
 ###
 

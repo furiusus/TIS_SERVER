@@ -3,6 +3,7 @@ package farmacia.servicios.controller;
 
 import farmacia.servicios.daomain.Pedido;
 import farmacia.servicios.daomain.Producto;
+import farmacia.servicios.request.RequestCompra;
 import farmacia.servicios.response.ResponseProductoPedido;
 import farmacia.servicios.response.ResponseVerificarUsuario;
 import farmacia.servicios.daomain.Usuario;
@@ -63,9 +64,13 @@ public class PedidoController {
         return productoService.editarProducto(producto);
     }
 
-    @RequestMapping(value = "/pedirPedido",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public @ResponseBody List<Pedido> pedirPedido(){
-        return  pedidoService.pedirPedidos();
+    @RequestMapping(value = "/pedirPedidoFarmaceutico",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody List<Pedido> pedirPedidoFarmaceutico(){
+        return  pedidoService.pedirPedidosFarmaceutico();
+    }
+    @RequestMapping(value = "/pedirPedidoClienteVigente",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody ResponseProductoPedido pedirPedidoClienteVigente(@RequestParam Integer idCliente){
+        return  pedidoService.pedirPedidosClienteVigente(idCliente);
     }
 
     @RequestMapping(value = "/pedirProductoPedido",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
@@ -73,4 +78,27 @@ public class PedidoController {
     ResponseProductoPedido pedirProductoPedido(@RequestParam Integer idPedido){
         return pedidoService.pedirProductoPedido(idPedido);
     }
+    @RequestMapping(value = "/eliminarPedido",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody Boolean eliminarPedido(@RequestParam Integer idPedido){
+        try{
+            pedidoService.cambiarEstadoPedido(2,idPedido);
+            return true;
+        }catch (Exception e){
+            return false;
+        }
+    }
+    @RequestMapping(value = "/entregarPedido",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody Boolean entregarPedido(@RequestParam Integer idPedido){
+        try{
+            pedidoService.cambiarEstadoPedido(1,idPedido);
+            return true;
+        }catch (Exception e){
+            return false;
+        }
+    }
+    @RequestMapping(value = "agregarCompra",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody Integer agregarCompra(@RequestBody RequestCompra requestCompra){
+        return pedidoService.crearCompra(requestCompra);
+    }
+
 }

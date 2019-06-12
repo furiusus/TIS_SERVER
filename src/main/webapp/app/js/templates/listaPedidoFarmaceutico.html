@@ -35,8 +35,8 @@
                             <th scope="col-lg-4  col-md-4 col-sm-6 col-6">#</th>
                             <th scope="col-lg-4  col-md-4 col-sm-6 col-6">Producto</th>
                             <th scope="col-lg-4  col-md-4 col-sm-6 col-6">Descripcion</th>
-                            <th scope="col-lg-4  col-md-4 col-sm-6 col-6">Precio</th>
                             <th scope="col-lg-4  col-md-4 col-sm-6 col-6">Cantidad</th>
+                            <th scope="col-lg-4  col-md-4 col-sm-6 col-6">Precio</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -44,8 +44,8 @@
                             <th scope="row">{{listaProductoPedido.indexOf(productoPedido)+1}}</th>
                             <td>{{productoPedido.nombre}}</td>
                             <td>{{productoPedido.descripcion}}</td>
-                            <td>{{productoPedido.precio}}</td>
                             <td>{{productoPedido.cantidad}}</td>
+                            <td>{{productoPedido.precio}}</td>
                         </tr>
                         </tbody>
                     </table>
@@ -56,8 +56,8 @@
                         </div>
                         <div class="col-md-4">
                             Estado
-                            <button class="btn"><ion-icon name="checkbox-outline" style="font-size:32px;"></ion-icon></button>
-                            <button class="btn"><ion-icon name="close" style="font-size:32px;"></ion-icon></button>
+                            <button class="btn" ng-click="entregarPedido(pedido.idPedido)"><ion-icon name="checkbox-outline" style="font-size:32px;"></ion-icon></button>
+                            <button class="btn" ng-click="eliminarPedido(pedido.idPedido)"><ion-icon name="close" style="font-size:32px;"></ion-icon></button>
                         </div>
                     </div>
                 </div>

@@ -13,76 +13,53 @@
         <div class="row">
             <div class="col-9 fondo-iniciar-sesion">
                 <br>
+                <div class="card mb-3" >
+                    <div class="row no-gutters" >
+                        <div class="col-4">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">NOMBRE/PRECIO</h5>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">DESCRIPCION</h5>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="card-body" style="font-size: 16px;">
+                                CANTIDAD
+                            </div>
+                        </div>
+                        <div class="col-2 text-center">
+                            <div class="card-body">
+                                ELIMINAR
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--productos-->
                 <div class="card mb-3" >
-                    <div class="row no-gutters">
+                    <div class="row no-gutters" ng-repeat="productoPedido in listaProductoPedido ">
                         <div class="col-4">
-                            <img src="src/img/paracetamol.PNG" class="card-img tam2" alt="Paracetamol">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">{{productoPedido.nombre}}</h5>
+                                <p>S/. {{productoPedido.precio}}</p>
+                            </div>
                         </div>
                         <div class="col-4">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Paracetamol</h5>
-                                <p>S/. 1.00</p>
+                                <h5 class="card-title">{{productoPedido.descripcion}}</h5>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="card-body">
-                                <input type="text" class="form-control" id="txtCantidad" disabled="disabled">
+                                <input type="text" class="form-control" ng-value="productoPedido.cantidad" disabled="disabled">
                             </div>
                         </div>
                         <div class="col-2 text-center">
                             <div class="card-body">
                                 <button><ion-icon name="trash"></ion-icon></button>
                             </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3" >
-                    <div class="row no-gutters">
-                        <div class="col-4">
-                            <img src="src/img/ibuprofeno.PNG" class="card-img tam2" alt="Ibuprofeno">
-                        </div>
-                        <div class="col-4">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Ibuprofeno</h5>
-                                <p>S/. 1.50</p>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="card-body">
-                                <input type="text" class="form-control" id="txtCantidad" disabled="disabled">
-                            </div>
-                        </div>
-                        <div class="col-2 text-center">
-                            <div class="card-body">
-                                <button><ion-icon name="trash"></ion-icon></button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3" >
-                    <div class="row no-gutters">
-                        <div class="col-4">
-                            <img src="src/img/amoxicilina.PNG" class="card-img tam2" alt="Amoxicilina">
-                        </div>
-                        <div class="col-4">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Amoxicilina</h5>
-                                <p>S/. 0.80</p>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="card-body">
-                                <input type="text" class="form-control" id="txtCantidad" disabled="disabled">
-                            </div>
-                        </div>
-                        <div class="col-2 text-center">
-                            <div class="card-body">
-                                <button><ion-icon name="trash"></ion-icon></button>
-                            </div>
-
                         </div>
                     </div>
                 </div>
@@ -93,7 +70,7 @@
                 <h1>Total</h1>
                 <div class="row justify-content-center">
                     <div class="col-8 ">
-                        <input type="text" class="form-control" id="totalPedido" placeholder="Total">
+                        <input ng-value="precioTotal" type="text" class="form-control" id="totalPedido" placeholder="Total" disabled>
                     </div>
                 </div>
                 <br>
