@@ -1,0 +1,29 @@
+{
+  "listaProductoPedido": [
+    {
+      "nombre": "DAFALGAN",
+      "descripcion": null,
+      "precio": 7.51,
+      "cantidad": 5
+    },
+    {
+      "nombre": "JABON LIQUIDO  PROHIDRATANTE",
+      "descripcion": null,
+      "precio": 12.94,
+      "cantidad": 5
+    },
+    {
+      "nombre": "SHAMPOO MANZANA FRESH FRESCO HEAD ",
+      "descripcion": null,
+      "precio": 8.93,
+      "cantidad": 1
+    },
+    {
+      "nombre": "DOVE MEN JABON CLEAN COMFOR",
+      "descripcion": null,
+      "precio": 12.94,
+      "cantidad": 3
+    }
+  ],
+  "precioTotal": 150.0
+}

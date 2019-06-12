@@ -1,0 +1,47 @@
+{
+  "listaProductoPedido": [
+    {
+      "nombre": "JABON LIQUIDO  PROHIDRATANTE",
+      "descripcion": null,
+      "precio": 18.05,
+      "cantidad": 2
+    },
+    {
+      "nombre": "JABON",
+      "descripcion": null,
+      "precio": 8.22,
+      "cantidad": 3
+    },
+    {
+      "nombre": "APIREDOL",
+      "descripcion": null,
+      "precio": 12.94,
+      "cantidad": 5
+    },
+    {
+      "nombre": "JABON LIQUIDO  PROHIDRATANTE",
+      "descripcion": null,
+      "precio": 12.94,
+      "cantidad": 1
+    },
+    {
+      "nombre": "DALSY",
+      "descripcion": null,
+      "precio": 12.94,
+      "cantidad": 5
+    },
+    {
+      "nombre": "JABON",
+      "descripcion": null,
+      "precio": 8.48,
+      "cantidad": 3
+    },
+    {
+      "nombre": "SHAMPOO MANZANA FRESH FRESCO HEAD ",
+      "descripcion": null,
+      "precio": 8.93,
+      "cantidad": 2
+    }
+  ],
+  "precioTotal": 246.4
+}

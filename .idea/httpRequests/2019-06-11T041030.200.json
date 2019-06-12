@@ -1,0 +1,23 @@
+[
+  {
+    "idPedido": 1,
+    "fecha": "11/06/2019 06:20",
+    "cliente": "JEAN PAUL",
+    "telefono": "987654321",
+    "dni": "69639919"
+  },
+  {
+    "idPedido": 2,
+    "fecha": "10/06/2019 06:20",
+    "cliente": "ENRIQUE ",
+    "telefono": null,
+    "dni": "78941189"
+  },
+  {
+    "idPedido": 3,
+    "fecha": "30/04/2019 06:20",
+    "cliente": "ASDASD",
+    "telefono": "987654345",
+    "dni": "65876567"
+  }
+]

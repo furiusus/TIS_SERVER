@@ -1,3 +1,135 @@
+POST http://localhost:8085/pedirProductoPedido?idPedido=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T082153.200.json
+
+###
+
+POST http://localhost:8085/pedirProductoPedido?idPedido=3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T080142.200.json
+
+###
+
+POST http://localhost:8085/pedirProductoPedido?idPedido=1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T080132.200.json
+
+###
+
+POST http://localhost:8085/pedirProductoPedido?idPedido=2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T080123.200.json
+
+###
+
+POST http://localhost:8085/pedirProductoPedido?idPedido=2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T075938.500.html
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T041030.200.json
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T040849.500.html
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T040646.200.json
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T040052.200.json
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+POST http://localhost:8085/pedirPedido
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2019-06-11T032307.404.html
+
+###
+
 POST http://localhost:8085/editarProducto
 Accept: */*
 Cache-Control: no-cache
@@ -297,170 +429,6 @@ Cache-Control: no-cache
 Content-Type: application/json
 
 <> 2019-06-07T123607.500.html
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T123441.500.html
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T123236.500.html
-
-###
-
-POST http://localhost:8085/productosPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T123143.500.html
-
-###
-
-POST http://localhost:8085/productoPag?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T123136.404.html
-
-###
-
-POST http://localhost:8085/agregarCliente?pagina=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-07T123118.400.html
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwwerty" ,"telefono":"987456876"}
-
-<> 2019-06-07T122915.200.json
-
-###
-
-POST http://localhost:8085/productosPag
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"pagina":1}
-
-<> 2019-06-07T122807.400.html
-
-###
-
-POST http://localhost:8085/productosPag
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"pagina":1}
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwwerty" ,"telefono":"987456876"}
-
-<> 2019-06-07T121728.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwwerty" ,"telefono":"987456876"}
-
-<> 2019-06-07T121727.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwwerty" }
-
-<> 2019-06-06T115433.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
-
-<> 2019-06-06T115421-2.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
-
-<> 2019-06-06T115421-1.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
-
-<> 2019-06-06T115421.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
-
-<> 2019-06-06T115419.200.json
-
-###
-
-POST http://localhost:8085/agregarCliente
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{   "dni":"78941189",   "nombres":"ENRIQUE ",   "apellidos":"RENILDO",   "correo":"erenildc@uni.pe",   "clave":"qwerty" }
-
-<> 2019-06-06T115143.500.html
 
 ###
 

@@ -1,15 +1,19 @@
 package farmacia.servicios.controller;
 
 
+import farmacia.servicios.daomain.Pedido;
 import farmacia.servicios.daomain.Producto;
+import farmacia.servicios.response.ResponseProductoPedido;
 import farmacia.servicios.response.ResponseVerificarUsuario;
 import farmacia.servicios.daomain.Usuario;
+import farmacia.servicios.servicios.PedidoService;
 import farmacia.servicios.servicios.ProductoService;
 import farmacia.servicios.servicios.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
 
 import java.util.List;
 
@@ -23,6 +27,8 @@ public class PedidoController {
     private UsuarioService usuarioService;
     @Autowired
     private ProductoService productoService;
+    @Autowired
+    private PedidoService pedidoService;
 
     @RequestMapping(value = "/verificarUsuario",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public @ResponseBody
@@ -55,5 +61,16 @@ public class PedidoController {
     @RequestMapping(value = "/editarProducto",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public @ResponseBody Boolean editarProducto(@RequestBody Producto producto){
         return productoService.editarProducto(producto);
+    }
+
+    @RequestMapping(value = "/pedirPedido",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody List<Pedido> pedirPedido(){
+        return  pedidoService.pedirPedidos();
+    }
+
+    @RequestMapping(value = "/pedirProductoPedido",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody
+    ResponseProductoPedido pedirProductoPedido(@RequestParam Integer idPedido){
+        return pedidoService.pedirProductoPedido(idPedido);
     }
 }

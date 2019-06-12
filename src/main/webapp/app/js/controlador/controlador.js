@@ -57,6 +57,7 @@ var controlador = app.controller('MyController',function($scope,$http){
     $scope.irListaPedidoFarmaceuticoV= function(){
         $scope.ocultarV();
         $scope.listaPedidoFarmaceuticoV=true;
+        $scope.pedirPedido();
     };
 
     $scope.irEditarProductoV= function(){
@@ -84,6 +85,7 @@ var controlador = app.controller('MyController',function($scope,$http){
             busqueda:false,
             informacion:null,
         };
+        $scope.listaPedidos = null;
         $scope.usuario = {
             id:null,
             dni:null,
@@ -103,7 +105,22 @@ var controlador = app.controller('MyController',function($scope,$http){
             url:null,
             stock:null
         };
-
+        $scope.pedido={
+            idPedido:null,
+            fecha:null,
+            cliente:null,
+            telefono:null,
+            dni:null
+        };
+        $scope.productoPedido={
+            nombre:null,
+            descripcion:null,
+            precio:null,
+            cantidad:null
+        };
+        $scope.precioTotal=null;
+        $scope.listaProductoPedido=null;
+        $scope.countP = 0;
     };
     $scope.definirVariables();
 
@@ -182,6 +199,14 @@ var controlador = app.controller('MyController',function($scope,$http){
             });
         }
     };
+    $scope.enviarProducto = function(producto){
+        var data = producto;
+        $http.post('/editarProducto',data,$scope.config_json).then(function (value) {
+            if(value.data){
+                $scope.productoEditar=0;
+            }
+        });
+    };
 
     $scope.contarPagina = function(){
         $http.post('/totalPagina',{}).then(function (value) {
@@ -229,13 +254,19 @@ var controlador = app.controller('MyController',function($scope,$http){
     $scope.editarProducto=function(idProd){
         $scope.productoEditar = idProd;
     };
-    $scope.enviarProducto = function(producto){
-        console.log(producto);
-        /*
-        AQUI ME QUEDE RONNY
-         */
+
+    $scope.pedirPedido =function(){
+        $http.post('/pedirPedido',$scope.config_json).then(function (value) {
+            $scope.listaPedidos = value.data;
+        })
     };
 
+    $scope.pedirProductoPedido=function(idPedido){
+        $http.post('/pedirProductoPedido','idPedido='+idPedido,$scope.config_form).then(function (value) {
+           $scope.listaProductoPedido =value.data.listaProductoPedido;
+           $scope.precioTotal = value.data.precioTotal;
+        });
+    };
 
     $scope.cerrarSesion = function () {
         $scope.irInicioV();
