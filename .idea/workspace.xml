@@ -7,45 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85cccdb6-341c-43d1-a342-c125358e1af5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/request/RequestCompra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T072823.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T123607.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124005.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124102.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124630.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124712.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124853.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-07T124939.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T081241.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T081343.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T081653.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T081859.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T083040.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T113850.400.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T113856.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T114025.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T114030.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T114035.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T114125.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T114131.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T114139.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-09T114146.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-10T012516.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-10T073219.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-10T073254.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-10T120818.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-06-11T032307.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48f67c09-3d54-41f4-b135-978e63b42b4a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/48f67c09-3d54-41f4-b135-978e63b42b4a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/48f67c09-3d54-41f4-b135-978e63b42b4a/storage_v2/_src_/schema/FARMACIA.8FVQZg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/48f67c09-3d54-41f4-b135-978e63b42b4a/storage_v2/_src_/schema/FARMACIA.8FVQZg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/PedidoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/PedidoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/PedidoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/PedidoDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/PedidoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/impl/PedidoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/impl/PedidoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoCliente.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoCliente.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoFarmaceutico.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoFarmaceutico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/js/templates/registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/js/templates/registro.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,11 +39,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="farmacia" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="farmacia" type="feb32156:DbDataSourceImpl" />
-        <item name="FARMACIA: schema" type="3abd1b6a:OraImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
@@ -91,8 +53,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+            <state relative-caret-position="5040">
+              <caret line="336" column="17" selection-start-line="336" selection-start-column="17" selection-end-line="336" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/registro.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -100,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="915">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -119,25 +90,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/barraFarmaceutico.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="22" column="78" lean-forward="true" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
-              <folding>
-                <element signature="n#style#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ion-icon#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoCliente.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+            <state relative-caret-position="1215">
+              <caret line="81" column="92" selection-start-line="81" selection-start-column="92" selection-end-line="81" selection-end-column="92" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -146,10 +102,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="42" selection-start-column="42" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoFarmaceutico.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+            <state relative-caret-position="870">
+              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -160,25 +125,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/48f67c09-3d54-41f4-b135-978e63b42b4a/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="71" column="87" selection-start-line="71" selection-start-column="87" selection-end-line="71" selection-end-column="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2750#2751#0" expanded="true" />
-                <element signature="e#2802#2803#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="47">
+              <caret line="189" selection-start-line="189" selection-end-line="189" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/request/RequestCompra.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <entry file="uml://DATABASE/48f67c09-3d54-41f4-b135-978e63b42b4a.SCHEMA:FARMACIA">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>48f67c09-3d54-41f4-b135-978e63b42b4a.SCHEMA:FARMACIA</OriginalElement>
+              <nodes>
+                <node x="269.25" y="253.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO</node>
+                <node x="57.25" y="0.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.USUARIO</node>
+                <node x="44.25" y="297.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO</node>
+                <node x="166.75" y="528.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA" target="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO">
+                  <point x="44.25" y="-68.5" />
+                  <point x="299.5" y="503.0" />
+                  <point x="363.75" y="503.0" />
+                  <point x="0.0" y="112.5" />
+                </edge>
+                <edge source="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA" target="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO">
+                  <point x="-44.25" y="-68.5" />
+                  <point x="211.0" y="503.0" />
+                  <point x="146.75" y="503.0" />
+                  <point x="0.0" y="68.5" />
+                </edge>
+                <edge source="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO" target="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.USUARIO">
+                  <point x="-51.25" y="-68.5" />
+                  <point x="95.5" y="228.0" />
+                  <point x="102.0" y="228.0" />
+                  <point x="-44.75" y="101.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7007299270072993" x="229.5" y="332.5" />
+              <SelectedNodes>
+                <node>48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -186,36 +182,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/PedidoDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1172">
+            <state relative-caret-position="1530">
               <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/ProductoPedido.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -252,9 +222,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response71.json" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -279,7 +246,6 @@
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/UsuarioDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/impl/UsuarioServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/js/templates/registro.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/templates/productoPanel.html" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/Producto.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/directives/producto.directive.js" />
@@ -298,7 +264,6 @@
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/daomain/ProductoPedido.java" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/response/ResponseCompraPedido.java" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/response/ResponseProductoPedido.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/48f67c09-3d54-41f4-b135-978e63b42b4a/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/request/RequestCompra.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/PedidoService.java" />
@@ -306,9 +271,11 @@
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/PedidoDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/impl/PedidoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/farmacia/servicios/controller/PedidoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoCliente.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoFarmaceutico.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoCliente.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app/js/templates/registro.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/48f67c09-3d54-41f4-b135-978e63b42b4a/console.sql" />
       </list>
     </option>
   </component>
@@ -353,10 +320,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="79" />
+    <option name="y" value="27" />
+    <option name="width" value="1221" />
+    <option name="height" value="662" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -366,8 +333,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -437,15 +402,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="servicios" type="462c0819:PsiDirectoryNode" />
               <item name="daomain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SERVER_FARMACIA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SERVER_FARMACIA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicios" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SERVER_FARMACIA" type="b2602c69:ProjectViewProjectNode" />
@@ -562,6 +518,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,7 +528,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/app/public" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -3043,18 +3001,27 @@
       <workItem from="1560118164784" duration="27127000" />
       <workItem from="1560207360564" duration="16182000" />
       <workItem from="1560286286419" duration="12337000" />
-      <workItem from="1560335819069" duration="24258000" />
+      <workItem from="1560335819069" duration="28923000" />
+      <workItem from="1560383746746" duration="849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203413000" />
+    <option name="totallyTimeSpent" value="208927000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.23867069" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" weight="0.24244712" />
       <window_info id="Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -3068,11 +3035,11 @@
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49924472" weight="0.46982056" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49622357" visible="true" weight="0.43066883" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49622357" weight="0.43066883" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3294893" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.48287112" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32952693" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="9" visible="true" weight="0.55791193" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32952693" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50377643" side_tool="true" weight="0.43066883" />
@@ -3132,13 +3099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/registro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="49" column="73" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/servicios/UsuarioService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -3190,13 +3150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/public/img/ibuprofeno.PNG" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/public/person.svg" />
     <entry file="jar:///usr/java/jdk1.8.0_171-amd64/src.zip!/java/lang/Integer.java">
@@ -3243,29 +3196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/48f67c09-3d54-41f4-b135-978e63b42b4a">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>48f67c09-3d54-41f4-b135-978e63b42b4a</OriginalElement>
-          <nodes>
-            <node x="" y="">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO</node>
-            <node x="" y="">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO</node>
-            <node x="" y="">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.USUARIO</node>
-            <node x="" y="">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6157407407407407" x="253.0" y="196.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/SimpleJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
@@ -3300,50 +3230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/48f67c09-3d54-41f4-b135-978e63b42b4a.SCHEMA:FARMACIA">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>48f67c09-3d54-41f4-b135-978e63b42b4a.SCHEMA:FARMACIA</OriginalElement>
-          <nodes>
-            <node x="269.25" y="253.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO</node>
-            <node x="44.25" y="297.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO</node>
-            <node x="166.75" y="528.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA</node>
-            <node x="57.25" y="0.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.USUARIO</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA" target="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO">
-              <point x="44.25" y="-68.5" />
-              <point x="299.5" y="503.0" />
-              <point x="363.75" y="503.0" />
-              <point x="0.0" y="112.5" />
-            </edge>
-            <edge source="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA" target="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO">
-              <point x="-44.25" y="-68.5" />
-              <point x="211.0" y="503.0" />
-              <point x="146.75" y="503.0" />
-              <point x="0.0" y="68.5" />
-            </edge>
-            <edge source="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO" target="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.USUARIO">
-              <point x="-51.25" y="-68.5" />
-              <point x="95.5" y="228.0" />
-              <point x="102.0" y="228.0" />
-              <point x="-44.75" y="101.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.3883211678832117" x="-140.0" y="598.0" />
-          <SelectedNodes>
-            <node>48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/directives/app.directive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -3368,13 +3254,6 @@
             <element signature="n#style#0;n#ion-icon#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/48f67c09-3d54-41f4-b135-978e63b42b4a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
         </state>
       </provider>
     </entry>
@@ -3536,26 +3415,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/PedidoDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1172">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="uml://DATABASE/48f67c09-3d54-41f4-b135-978e63b42b4a">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>48f67c09-3d54-41f4-b135-978e63b42b4a</OriginalElement>
+          <nodes>
+            <node x="" y="">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO</node>
+            <node x="" y="">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.USUARIO</node>
+            <node x="" y="">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA</node>
+            <node x="" y="">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6229508196721312" x="214.0" y="281.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/controlador/controlador.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="5040">
+          <caret line="336" column="17" selection-start-line="336" selection-start-column="17" selection-end-line="336" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/registro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/catalogoProductoCliente.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="915">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -3570,10 +3469,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoCliente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="92" selection-start-line="81" selection-start-column="92" selection-end-line="81" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoFarmaceutico.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        <state relative-caret-position="870">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -3583,13 +3499,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/app/js/templates/listaPedidoCliente.html">
+    <entry file="uml://DATABASE/48f67c09-3d54-41f4-b135-978e63b42b4a.SCHEMA:FARMACIA">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>48f67c09-3d54-41f4-b135-978e63b42b4a.SCHEMA:FARMACIA</OriginalElement>
+          <nodes>
+            <node x="269.25" y="253.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO</node>
+            <node x="57.25" y="0.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.USUARIO</node>
+            <node x="44.25" y="297.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO</node>
+            <node x="166.75" y="528.0">48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA" target="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO">
+              <point x="44.25" y="-68.5" />
+              <point x="299.5" y="503.0" />
+              <point x="363.75" y="503.0" />
+              <point x="0.0" y="112.5" />
+            </edge>
+            <edge source="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.COMPRA" target="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO">
+              <point x="-44.25" y="-68.5" />
+              <point x="211.0" y="503.0" />
+              <point x="146.75" y="503.0" />
+              <point x="0.0" y="68.5" />
+            </edge>
+            <edge source="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PEDIDO" target="48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.USUARIO">
+              <point x="-51.25" y="-68.5" />
+              <point x="95.5" y="228.0" />
+              <point x="102.0" y="228.0" />
+              <point x="-44.75" y="101.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7007299270072993" x="229.5" y="332.5" />
+          <SelectedNodes>
+            <node>48f67c09-3d54-41f4-b135-978e63b42b4a.TABLE:FARMACIA.PRODUCTO</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/farmacia/servicios/dao/impl/PedidoDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+        <state relative-caret-position="1530">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/48f67c09-3d54-41f4-b135-978e63b42b4a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="189" selection-start-line="189" selection-end-line="189" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -309,9 +309,30 @@ var controlador = app.controller('MyController',function($scope,$http){
             $scope.precioTotal = value.data.precioTotal;
         });
     };
+    $scope.enviarPedido = function(){
+        alert("PEDIDO ENVIADO, POR FAVOR ACERCARCE A RECOGER SU PEDIDO EN MENOS DE 30 MIN ;)");
+    };
+    $scope.borrarPedido = function(){
+        alert("PEDIDO BORRADO :'c");
+    };
 
     $scope.cerrarSesion = function () {
         $scope.irInicioV();
         $scope.definirVariables();
     }
 });
+
+    function soloNumeros(e)
+    {
+        var keynum = window.event ? window.event.keyCode : e.which;
+        if ((keynum == 8) || (keynum == 46))
+            return true;
+        return /\d/.test(String.fromCharCode(keynum));
+    }
+function soloLetras(e)
+{
+    var keynum = window.event ? window.event.keyCode : e.which;
+    if ((keynum == 8) || (keynum == 46))
+        return true;
+    return !/\d/.test(String.fromCharCode(keynum));
+}

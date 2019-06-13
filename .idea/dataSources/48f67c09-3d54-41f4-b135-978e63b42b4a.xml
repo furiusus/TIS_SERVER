@@ -19,8 +19,8 @@
     <schema id="6" parent="1" name="FARMACIA">
       <ObjectId>48</ObjectId>
       <CreatedTimestamp>2019-06-06.08:53:57</CreatedTimestamp>
-      <ModifiedTimestamp>2019-06-11.13:29:11</ModifiedTimestamp>
-      <IntrospectionTimestamp>2019-06-11.13:29:20</IntrospectionTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:27:00</ModifiedTimestamp>
+      <IntrospectionTimestamp>2019-06-12.14:28:37</IntrospectionTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -56,15 +56,15 @@
       <ObjectId>2147483638</ObjectId>
     </schema>
     <table id="16" parent="6" name="COMPRA">
-      <ObjectId>20488</ObjectId>
-      <CreatedTimestamp>2019-06-11.13:28:52</CreatedTimestamp>
-      <ModifiedTimestamp>2019-06-11.13:29:11</ModifiedTimestamp>
+      <ObjectId>20584</ObjectId>
+      <CreatedTimestamp>2019-06-12.14:26:19</CreatedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:27:00</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="17" parent="6" name="PEDIDO">
-      <ObjectId>20486</ObjectId>
-      <CreatedTimestamp>2019-06-11.03:58:14</CreatedTimestamp>
-      <ModifiedTimestamp>2019-06-11.03:59:41</ModifiedTimestamp>
+      <ObjectId>20586</ObjectId>
+      <CreatedTimestamp>2019-06-12.14:26:29</CreatedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:27:00</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="18" parent="6" name="PRODUCTO">
@@ -74,9 +74,9 @@
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="19" parent="6" name="USUARIO">
-      <ObjectId>20389</ObjectId>
-      <CreatedTimestamp>2019-06-06.20:13:28</CreatedTimestamp>
-      <ModifiedTimestamp>2019-06-06.20:13:33</ModifiedTimestamp>
+      <ObjectId>20588</ObjectId>
+      <CreatedTimestamp>2019-06-12.14:26:43</CreatedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:26:50</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <synonym id="20" parent="11" name="ABSPATH">
@@ -27921,22 +27921,22 @@
       <NotNull>1</NotNull>
     </column>
     <index id="3999" parent="16" name="XPKCOMPRA">
-      <ObjectId>20489</ObjectId>
-      <CreatedTimestamp>2019-06-11.13:29:00</CreatedTimestamp>
-      <ModifiedTimestamp>2019-06-11.13:29:00</ModifiedTimestamp>
+      <ObjectId>20585</ObjectId>
+      <CreatedTimestamp>2019-06-12.14:26:23</CreatedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:26:23</ModifiedTimestamp>
       <TablespaceName>SYSTEM</TablespaceName>
       <ColNames>ID_COMPRA</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="4000" parent="16" name="XPKCOMPRA">
-      <ModifiedTimestamp>2019-06-11.13:29:00</ModifiedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:26:23</ModifiedTimestamp>
       <ColNames>ID_COMPRA</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>XPKCOMPRA</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="4001" parent="16" name="R_16">
-      <ModifiedTimestamp>2019-06-11.13:29:11</ModifiedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:27:00</ModifiedTimestamp>
       <ColNames>ID_PRODUCTO</ColNames>
       <RefSchemaName>FARMACIA</RefSchemaName>
       <RefTableName>PRODUCTO</RefTableName>
@@ -27944,7 +27944,7 @@
       <OnDelete>restrict</OnDelete>
     </foreign-key>
     <foreign-key id="4002" parent="16" name="R_17">
-      <ModifiedTimestamp>2019-06-11.13:29:11</ModifiedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:27:00</ModifiedTimestamp>
       <ColNames>ID_PEDIDO</ColNames>
       <RefSchemaName>FARMACIA</RefSchemaName>
       <RefTableName>PEDIDO</RefTableName>
@@ -27975,22 +27975,22 @@
       <DataType>NUMBER(*)|0s</DataType>
     </column>
     <index id="4008" parent="17" name="XPKPEDIDO">
-      <ObjectId>20487</ObjectId>
-      <CreatedTimestamp>2019-06-11.03:58:19</CreatedTimestamp>
-      <ModifiedTimestamp>2019-06-11.03:58:19</ModifiedTimestamp>
+      <ObjectId>20587</ObjectId>
+      <CreatedTimestamp>2019-06-12.14:26:34</CreatedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:26:34</ModifiedTimestamp>
       <TablespaceName>SYSTEM</TablespaceName>
       <ColNames>ID_PEDIDO</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="4009" parent="17" name="XPKPEDIDO">
-      <ModifiedTimestamp>2019-06-11.03:58:19</ModifiedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:26:34</ModifiedTimestamp>
       <ColNames>ID_PEDIDO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>XPKPEDIDO</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="4010" parent="17" name="R_13">
-      <ModifiedTimestamp>2019-06-11.03:59:41</ModifiedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:27:00</ModifiedTimestamp>
       <ColNames>ID_CLIENTE</ColNames>
       <RefSchemaName>FARMACIA</RefSchemaName>
       <RefTableName>USUARIO</RefTableName>
@@ -27998,7 +27998,7 @@
       <OnDelete>restrict</OnDelete>
     </foreign-key>
     <foreign-key id="4011" parent="17" name="R_14">
-      <ModifiedTimestamp>2019-06-11.03:59:41</ModifiedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:27:00</ModifiedTimestamp>
       <ColNames>ID_FARMACEUTICO</ColNames>
       <RefSchemaName>FARMACIA</RefSchemaName>
       <RefTableName>USUARIO</RefTableName>
@@ -28093,15 +28093,15 @@
       <DataType>CHAR(9 byte)|0s</DataType>
     </column>
     <index id="4031" parent="19" name="XPKUSUARIO">
-      <ObjectId>20390</ObjectId>
-      <CreatedTimestamp>2019-06-06.20:13:33</CreatedTimestamp>
-      <ModifiedTimestamp>2019-06-06.20:13:33</ModifiedTimestamp>
+      <ObjectId>20589</ObjectId>
+      <CreatedTimestamp>2019-06-12.14:26:49</CreatedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:26:49</ModifiedTimestamp>
       <TablespaceName>SYSTEM</TablespaceName>
       <ColNames>ID_USUARIO</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="4032" parent="19" name="XPKUSUARIO">
-      <ModifiedTimestamp>2019-06-06.20:13:33</ModifiedTimestamp>
+      <ModifiedTimestamp>2019-06-12.14:26:50</ModifiedTimestamp>
       <ColNames>ID_USUARIO</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>XPKUSUARIO</UnderlyingIndexName>

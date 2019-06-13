@@ -16,28 +16,28 @@
                         <div class="form-row">
                             <div class=" col-md-6 mb-3">
                                 <label for="nombres">Nombres:</label>
-                                <input type="text" ng-model="usuario.nombres" class="form-control" id="nombres" placeholder="Ingrese nombres"  required>
+                                <input onkeypress="return soloLetras(event);" type="text" ng-model="usuario.nombres" class="form-control" id="nombres" placeholder="Ingrese nombres"  required>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="apellidos">Apellidos:</label>
-                                <input type="text" ng-model="usuario.apellidos" class="form-control" id="apellidos" placeholder="Ingrese apellidos" value="" required>
+                                <input onkeypress="return soloLetras(event);" type="text" ng-model="usuario.apellidos" class="form-control" id="apellidos" placeholder="Ingrese apellidos" value="" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <label for="correo">Correo:</label>
-                                <input type="email" ng-model="usuario.correo" class="form-control " id="correo" placeholder="Ingrese correo" required>
+                                <input type="email" ng-model="usuario.correo" class="form-control " id="correo" placeholder="Ingrese correo" required >
                                 <small class="form-text text-muted">Tenga en cuenta que el usuario para el logeo sera el mismo que su correo</small >
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="telefono">Teléfono:</label>
-                                <input type="text" ng-model="usuario.telefono" class="form-control" id="telefono" placeholder="Telefono" required maxlength="9">
+                                <input onkeypress="return soloNumeros(event);" type="text" ng-model="usuario.telefono" class="form-control" id="telefono" placeholder="Telefono" required maxlength="9">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <label for="dni">DNI:</label>
-                                <input type="text" ng-model="usuario.dni" class="form-control " id="dni" placeholder="DNI" required maxlength="8">
+                                <input onkeypress="return soloNumeros(event);" type="text" ng-model="usuario.dni" class="form-control " id="dni" placeholder="DNI" required maxlength="8">
                             </div>
                         </div>
                         <div class="form-row">
