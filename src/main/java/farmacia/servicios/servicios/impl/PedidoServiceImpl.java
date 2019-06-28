@@ -61,4 +61,9 @@ public class PedidoServiceImpl extends SimpleJdbc implements PedidoService {
         responseProductoPedido =pedirProductoPedido(lista.get(0).getIdPedido());
         return responseProductoPedido;
     }
+
+    @Override
+    public Integer enviarPedido(Integer idCliente) {
+        return pedidoDao.enviarPedido(idCliente);
+    }
 }

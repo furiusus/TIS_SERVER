@@ -1,5 +1,6 @@
 package farmacia.servicios.dao.impl;
 
+import com.sun.org.apache.bcel.internal.generic.RETURN;
 import farmacia.servicios.dao.PedidoDao;
 import farmacia.servicios.dao.SimpleJdbc;
 import farmacia.servicios.daomain.Pedido;
@@ -98,7 +99,7 @@ public class PedidoDaoImpl extends SimpleJdbc implements PedidoDao {
             }
             String sqlInsterProducto = "INSERT INTO COMPRA(ID_COMPRA,ID_PEDIDO,ID_PRODUCTO,PRECIO,CANTIDAD) VALUES (?,?,?,?,?)";
             Float precio = getJdbcTemplate().queryForObject("SELECT PRECIO FROM PRODUCTO WHERE ID_PRODUCTO=?", new Object[]{requestCompra.getIdProducto()}, Float.class);
-            Integer idCompra = getJdbcTemplate().queryForObject("SELECT COUNT(*) FROM COMPRA", Integer.class) + 1;
+            Integer idCompra = getJdbcTemplate().queryForObject("SELECT MAX(ID_COMPRA) FROM COMPRA", Integer.class) + 1;
             getJdbcTemplate().update(sqlInsterProducto, new Object[]{idCompra, idPedido, requestCompra.getIdProducto(), precio, requestCompra.getCantidad()});
             return 0;
         }else{
@@ -128,5 +129,42 @@ public class PedidoDaoImpl extends SimpleJdbc implements PedidoDao {
             listaPedido = null;
         }
         return listaPedido;
+    }
+
+
+    @Override
+    public Integer enviarPedido(Integer idCliente) {
+//        return 0 ->pedido enviado
+//        return 1 -> pedido no enviado esta vacio
+//        return 2 -> pedido no enviado no existe
+        try{
+            String sql = "SELECT COUNT(*) FROM PEDIDO WHERE ID_CLIENTE=? AND ESTADO=3";
+            Integer pedidoExiste = getJdbcTemplate().queryForObject(sql,new Object[]{idCliente},Integer.class);
+            if(pedidoExiste==0){
+                return 2;
+            }else{
+                String sql2 = "SELECT COUNT(*) FROM COMPRA WHERE ID_PEDIDO = (SELECT ID_PEDIDO FROM PEDIDO WHERE ID_CLIENTE=? AND ESTADO=3)";
+                Integer cantProd = getJdbcTemplate().queryForObject(sql2,new Object[]{idCliente},Integer.class);
+                if(cantProd==0){
+                    return 1;
+                }else{
+                    String sql3 = "SELECT ID_PRODUCTO,CANTIDAD FROM COMPRA WHERE ID_PEDIDO=(SELECT ID_PEDIDO FROM PEDIDO WHERE ID_CLIENTE=? AND ESTADO=3)";
+                    List<Map<String,Object>> respuestaLista= getJdbcTemplate().queryForList(sql3,new Object[]{idCliente});
+                    if(respuestaLista!=null && respuestaLista.size()>0){
+                        for (int i = 0; i < respuestaLista.size(); i++) {
+                            Integer id_producto = ((BigDecimal)respuestaLista.get(i).get("ID_PRODUCTO")).intValue();
+                            Integer cantidad = ((BigDecimal)respuestaLista.get(i).get("CANTIDAD")).intValue();
+                            getJdbcTemplate().update("UPDATE PRODUCTO SET STOCK=STOCK-? WHERE ID_PRODUCTO=?",new Object[]{id_producto,cantidad});
+                        }
+                        getJdbcTemplate().update("UPDATE PEDIDO SET FECHA_PEDIDO=SYSDATE,ESTADO=0 WHERE ID_PEDIDO = (SELECT ID_PEDIDO FROM PEDIDO WHERE ID_CLIENTE = ? AND ESTADO=3)",new Object[]{idCliente});
+                        return 0;
+                    }else {
+                        return 3;
+                    }
+                }
+            }
+        }catch (NullPointerException e){
+            return 3;
+        }
     }
 }

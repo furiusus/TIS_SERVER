@@ -145,10 +145,14 @@ var controlador = app.controller('MyController',function($scope,$http){
         }
     };
 
+    $scope.noVacio = function(i){
+        var respuesta =  (i==="" || i==='' || i==null);
+        return !respuesta;
+    };
     //FUNCIONES DE OPERACION
     $scope.validarDatos = function () {
         var data  = $scope.usuario;
-        if($scope.usuario.correo!="" && $scope.usuario.clave!="") {
+        if($scope.noVacio($scope.usuario.correo) && $scope.noVacio($scope.usuario.clave) ){
             var res = $http.post('/verificarUsuario', data, $scope.config_json);
             res.then(function (response) {
                 var respuesta = response.data;
@@ -169,19 +173,27 @@ var controlador = app.controller('MyController',function($scope,$http){
     };
 
     $scope.registrarCliente = function () {
-        var data  = $scope.usuario;
-        if($scope.usuario.clave==$scope.usuario.clave2) {
-            var res = $http.post('/agregarCliente', data, $scope.config_json);
-            res.then(function (response) {
-                var data = response.data;
-                if (!data) {
-                    $scope.mensajeRegistro = "Este correo o dni ya esta registrado";
-                }else{
-                    $scope.irCatalogoProductoClienteV();
-                }
-            })
-        }else{
-            $scope.mensajeRegistro = "Contraseñas no coinciden";
+        if($scope.noVacio($scope.usuario.nombres) && $scope.noVacio($scope.usuario.apellidos) &&
+            $scope.noVacio($scope.usuario.correo) && $scope.noVacio($scope.usuario.telefono) &&
+            $scope.noVacio($scope.usuario.dni) && $scope.noVacio($scope.usuario.clave) &&
+            $scope.noVacio($scope.usuario.clave2)) {
+            if ($scope.usuario.clave === $scope.usuario.clave2) {
+                var data = $scope.usuario;
+                var res = $http.post('/agregarCliente', data, $scope.config_json);
+                res.then(function (response) {
+                    var data = response.data;
+                    if (!data) {
+                        $scope.mensajeRegistro = "Este correo o dni ya esta registrado";
+                    } else {
+                        alert("Usuario registrado correctamente");
+                        $scope.irCatalogoProductoClienteV();
+                    }
+                })
+            } else {
+                $scope.mensajeRegistro = "Contraseñas no coinciden";
+            }
+        }else {
+            $scope.mensajeRegistro = "Complete todos los campos";
         }
     };
 
@@ -205,6 +217,8 @@ var controlador = app.controller('MyController',function($scope,$http){
             $http.post('/buscarProducto', 'informacion=' + data, $scope.config_form).then(function (value) {
                 $scope.listaProducto = value.data;
             });
+        }else{
+            $scope.cargarListaProducto($scope.pagina);
         }
     };
     $scope.enviarProducto = function(producto){
@@ -307,10 +321,25 @@ var controlador = app.controller('MyController',function($scope,$http){
             console.log(value.data);
             $scope.listaProductoPedido =value.data.listaProductoPedido;
             $scope.precioTotal = value.data.precioTotal;
+        }).catch(function (value) {
+            alert("Sin pedido");
+            $scope.listaProductoPedido =null;
         });
     };
     $scope.enviarPedido = function(){
-        alert("PEDIDO ENVIADO, POR FAVOR ACERCARCE A RECOGER SU PEDIDO EN MENOS DE 30 MIN ;)");
+        var r = confirm("¿QUIERE ENVIAR PEDIDO?");
+        if(r==true){
+            $http.post('/enviarPedido','idCliente='+$scope.usuario.idUsuario,$scope.config_form).then(function (value) {
+                console.log(value.data);
+                if(value.data == 0){
+                    let t= alert("PEDIDO ENVIADO, POR FAVOR ACERCARCE A RECOGER SU PEDIDO EN MENOS DE 30 MIN ;)");
+                    $scope.irListaPedidoClienteV();
+                }else{
+                    let t= alert("PEDIDO NO ENVIADO; por favor agrege productos al pedido");
+                }
+            });
+        }else{
+        }
     };
     $scope.borrarPedido = function(){
         alert("PEDIDO BORRADO :'c");

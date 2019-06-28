@@ -106,4 +106,5 @@ public class ProductoDaoImpl extends SimpleJdbc implements ProductoDao {
             System.out.println(e);
         }
     }
+
 }

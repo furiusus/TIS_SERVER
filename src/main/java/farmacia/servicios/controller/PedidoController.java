@@ -24,6 +24,12 @@ import java.util.List;
 //@RequestMapping("pedidoController")
 
 public class PedidoController {
+//        PEDIDO         ESTADO
+//        ELIMINADO    ->   2
+//        CREADO       ->   3
+//        ENVIADO      ->   0
+//        ENTREGADO    ->   1
+
     @Autowired
     private UsuarioService usuarioService;
     @Autowired
@@ -99,6 +105,11 @@ public class PedidoController {
     @RequestMapping(value = "agregarCompra",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public @ResponseBody Integer agregarCompra(@RequestBody RequestCompra requestCompra){
         return pedidoService.crearCompra(requestCompra);
+    }
+
+    @RequestMapping(value = "enviarPedido",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    public @ResponseBody Integer enviarPedido(@RequestParam Integer idCliente){
+        return pedidoService.enviarPedido(idCliente);
     }
 
 }

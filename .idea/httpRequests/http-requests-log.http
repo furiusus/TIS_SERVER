@@ -1,3 +1,237 @@
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-28T100348.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T123624.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T123429.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T123234.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=10
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T123223.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=9
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T123217.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=9
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T123059.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=9
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120407.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=9
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120309.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=7
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120301.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120255.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=3
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120242.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=9
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120230.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=7
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120223.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=3
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120217.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120207.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120114.500.html
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=9
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120109.500.html
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=9
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T120010.500.html
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=9
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T115909.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T115335.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=3
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T115331.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=11
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T115324.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T115317.200.json
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=2
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T115225.500.html
+
+###
+
+POST http://localhost:8085/enviarPedido?idCliente=11
+Cache-Control: no-cache
+Content-Type: application/json
+Accept: */*
+
+<> 2019-06-24T115215.500.html
+
+###
+
 POST http://localhost:8085/pedirPedidoClienteVigente?idCliente=2
 Cache-Control: no-cache
 Content-Type: application/json
@@ -239,249 +473,6 @@ Accept: */*
 {"idProducto":14,"idCliente":2,"cantidad":15}
 
 <> 2019-06-12T125503.500.html
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-<> 2019-06-12T125412.500.html
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-<> 2019-06-12T125217.500.html
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-<> 2019-06-12T125121.500.html
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-<> 2019-06-12T124437.500.html
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-<> 2019-06-12T124221.500.html
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-<> 2019-06-12T124109.500.html
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-###
-
-POST http://localhost:8085/agregarCompra
-Cache-Control: no-cache
-Content-Type: application/json
-Accept: */*
-
-{"idProducto":14,"idCliente":2,"cantidad":15}
-
-<> 2019-06-12T123959.500.html
-
-###
-
-POST http://localhost:8085/eliminarPedido?idPedido=2
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-12T065652.200.json
-
-###
-
-POST http://localhost:8085/eliminarPedido?idPedido=2
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-12T065211.200.json
-
-###
-
-POST http://localhost:8085/eliminarPedido?idPedido=2
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T092846.500.html
-
-###
-
-POST http://localhost:8085/eliminarPedido?idPedido=5
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T092819.500.html
-
-###
-
-POST http://localhost:8085/eliminarPedido?idPedido=5
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T092720.404.html
-
-###
-
-POST http://localhost:8085/pedirProductoPedido?idPedido=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T082153.200.json
-
-###
-
-POST http://localhost:8085/pedirProductoPedido?idPedido=3
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T080142.200.json
-
-###
-
-POST http://localhost:8085/pedirProductoPedido?idPedido=1
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T080132.200.json
-
-###
-
-POST http://localhost:8085/pedirProductoPedido?idPedido=2
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T080123.200.json
-
-###
-
-POST http://localhost:8085/pedirProductoPedido?idPedido=2
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T075938.500.html
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T041030.200.json
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T040849.500.html
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T040646.200.json
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2019-06-11T040052.200.json
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-POST http://localhost:8085/pedirPedido
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
 
 ###
 

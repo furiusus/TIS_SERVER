@@ -13,4 +13,5 @@ public interface PedidoService {
     void cambiarEstadoPedido(Integer estado,Integer idPedido);
     Integer crearCompra(RequestCompra requestCompra);
     ResponseProductoPedido pedirPedidosClienteVigente(Integer idCliente);
+    Integer enviarPedido(Integer idCliente);
 }

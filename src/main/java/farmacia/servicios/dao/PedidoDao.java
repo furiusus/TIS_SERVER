@@ -14,4 +14,5 @@ public interface PedidoDao {
     Integer existePedido(Integer idUsuario);
     Integer crearProductoPedido(RequestCompra requestCompra);
     List<Pedido> pedirPedidosCliente(Integer estado,Integer idCliente);
+    Integer enviarPedido(Integer idCliente);
 }

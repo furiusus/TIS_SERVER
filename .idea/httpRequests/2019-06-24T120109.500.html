@@ -59,11 +59,12 @@
 <hr class="line"/>
 <p><b>Tipo</b> Informe de Excepción</p>
 <p><b>mensaje</b> Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException:
-    PreparedStatementCallback; bad SQL grammar [select ID_PEDIDO from pedido where id_cliente=? &amp;&amp; estado=3];
-    nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended</p>
+    PreparedStatementCallback; bad SQL grammar [SELECT COUNT(*) FROM COMPRA WHERE ID_PEDIDO = (SELECT ID_PEDIDO WHERE
+    ID_CLIENTE=? AND ESTADO=3)]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00923: FROM keyword not found
+    where expected</p>
 <p><b>descripción</b> El servidor encontró un error interno que hizo que no pudiera rellenar este requerimiento.</p>
 <p><b>excepción</b></p>
-<pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select ID_PEDIDO from pedido where id_cliente=? &amp;&amp; estado=3]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+<pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [SELECT COUNT(*) FROM COMPRA WHERE ID_PEDIDO = (SELECT ID_PEDIDO WHERE ID_CLIENTE=? AND ESTADO=3)]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00923: FROM keyword not found where expected
 
 	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
 	org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
@@ -75,7 +76,7 @@
 	org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:170)
 </pre>
 <p><b>causa raíz</b></p>
-<pre>org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [select ID_PEDIDO from pedido where id_cliente=? &amp;&amp; estado=3]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+<pre>org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad SQL grammar [SELECT COUNT(*) FROM COMPRA WHERE ID_PEDIDO = (SELECT ID_PEDIDO WHERE ID_CLIENTE=? AND ESTADO=3)]; nested exception is java.sql.SQLSyntaxErrorException: ORA-00923: FROM keyword not found where expected
 
 	org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:91)
 	org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
@@ -86,10 +87,9 @@
 	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:726)
 	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:794)
 	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:813)
-	farmacia.servicios.dao.impl.PedidoDaoImpl.existePedido(PedidoDaoImpl.java:81)
-	farmacia.servicios.dao.impl.PedidoDaoImpl.crearProductoPedido(PedidoDaoImpl.java:88)
-	farmacia.servicios.servicios.impl.PedidoServiceImpl.crearCompra(PedidoServiceImpl.java:49)
-	farmacia.servicios.controller.PedidoController.agregarCompra(PedidoController.java:97)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.enviarPedido(PedidoDaoImpl.java:146)
+	farmacia.servicios.servicios.impl.PedidoServiceImpl.enviarPedido(PedidoServiceImpl.java:67)
+	farmacia.servicios.controller.PedidoController.enviarPedido(PedidoController.java:112)
 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,7 +112,7 @@
 	org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:170)
 </pre>
 <p><b>causa raíz</b></p>
-<pre>java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+<pre>java.sql.SQLSyntaxErrorException: ORA-00923: FROM keyword not found where expected
 
 	oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
 	oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
@@ -137,10 +137,9 @@
 	org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:726)
 	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:794)
 	org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:813)
-	farmacia.servicios.dao.impl.PedidoDaoImpl.existePedido(PedidoDaoImpl.java:81)
-	farmacia.servicios.dao.impl.PedidoDaoImpl.crearProductoPedido(PedidoDaoImpl.java:88)
-	farmacia.servicios.servicios.impl.PedidoServiceImpl.crearCompra(PedidoServiceImpl.java:49)
-	farmacia.servicios.controller.PedidoController.agregarCompra(PedidoController.java:97)
+	farmacia.servicios.dao.impl.PedidoDaoImpl.enviarPedido(PedidoDaoImpl.java:146)
+	farmacia.servicios.servicios.impl.PedidoServiceImpl.enviarPedido(PedidoServiceImpl.java:67)
+	farmacia.servicios.controller.PedidoController.enviarPedido(PedidoController.java:112)
 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
